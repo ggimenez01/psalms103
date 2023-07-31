@@ -1,3 +1,4 @@
+# app/admin/order_items.rb
 ActiveAdmin.register OrderItem do
   permit_params :order_id, :product_id, :quantity, :price
 
