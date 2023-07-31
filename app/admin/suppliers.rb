@@ -1,3 +1,4 @@
+# app/admin/suppliers.rb
 ActiveAdmin.register Supplier do
 
   # See permitted parameters documentation:
