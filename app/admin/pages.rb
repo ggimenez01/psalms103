@@ -1,3 +1,4 @@
+# app/admin/pages.rb
 ActiveAdmin.register Page do
 
   # See permitted parameters documentation:
