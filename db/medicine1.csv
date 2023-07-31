@@ -1,0 +1,738 @@
+Supplier Name,Categories,Mat ID,Name,UOM,Price
+Dygen,Prescription,10002044,DDC Amlodipine Tab 10mg 30',BOX,80.85
+Dygen,Prescription,10002045,DDC Amlodipine Tab 5mg 30',BOX,57.75
+Dygen,Prescription,10008377,DDC Amoxicillin 250mg/5ml Susp 60ml/144',BT,29.80
+Dygen,Prescription,10008372,DDC Amoxicillin 500mg Cap100'(Steinbach),BOX,159.00
+Dygen,Prescription,10002043,DDC Amoxicillin Cap 500mg 100' (Lloyd),BOX,186.56
+Dygen,Prescription,10008088,DDC Ascorbic Acid Cap 500mg 100',BOX,128.00
+Dygen,Prescription,10002058,DDC Atorvastatin Tab 10mg 30',BOX,110.25
+Dygen,Prescription,10002059,DDC Atorvastatin Tab 20mg 30',BOX,168.00
+Dygen,OTC,10002060,DDC Atorvastatin Tab 40mg 24',BOX,178.50
+Dygen,OTC,10002053,DDC Clopidogrel Tab 75mg 30',BOX,140.63
+Dygen,OTC,10002051,DDC Colchicine Tab 500mcg 100',BOX,120.75
+Dygen,OTC,10002049,DDC Losartan FC Tab 100mg 30',BOX,180.60
+Dygen,OTC,10002050,DDC Losartan FC Tab 50mg 30',BOX,118.65
+Dygen,OTC,10002042,DDC Mefenamic Acid Cap 500mg 100',BOX,110.00
+Dygen,OTC,10002052,DDC Metformin FCt 500mg 100',BOX,105.00
+Dygen,Generic,10002054,DDC Metropolol Tab 100mg 100',BOX,357.14
+Dygen,Generic,10002055,DDC Metropolol Tab 50mg 100',BOX,214.29
+Dygen,Generic,10002046,DDC Phenyl+Brompheniramine Drops 15ml,BT,22.00
+Dygen,Generic,10002047,DDC Phenyl+Brompheniramine Syrup 60ml,BT,20.85
+Dygen,Generic,10002048,DDC Phenyl+Brompheniramine Tab 100',BOX,167.62
+Dygen,Generic,10002056,DDC Simvastatin Tab 20mg 30',BOX,75.60
+Dygen,Generic,10002057,DDC Simvastatin Tab 40mg 30',BOX,126.00
+Dygen,Generic,10007700,DDC Vit. B Complex Tab 100',BOX,99.20
+Farmacia Ni Doc Inc.,Generic,10004878,Abdomnal Binder (One Stop),PC,140.00
+Farmacia Ni Doc Inc.,Generic,10004935,Carica Virgin Coconut Oil 100ml,BT,71.65
+Farmacia Ni Doc Inc.,Generic,10004936,Carica Virgin Coconut Oil 250ml,BT,114.00
+Farmacia Ni Doc Inc.,Branded,10004977,Cotton Balls (Tendersoft) 50',PAC,10.80
+Farmacia Ni Doc Inc.,Branded,10004978,Cotton Mama's Love 40G,PAC,22.40
+Farmacia Ni Doc Inc.,Branded,10004979,Cotton Roll Tender Soft 12G,PAC,4.90
+Farmacia Ni Doc Inc.,Branded,10004988,Digital Thermomether (G.T.),BOX,62.50
+Farmacia Ni Doc Inc.,Branded,10004991,Disposable Syringe (Indoplas) 10Cc 100',BOX,290.18
+Farmacia Ni Doc Inc.,Branded,10004993,Disposable Syringe (Sure Guard) 5Cc 100',BOX,181.25
+Farmacia Ni Doc Inc.,Branded,10004992,Disposable Syringe (SureGuard) 10cc 100',BOX,290.18
+Farmacia Ni Doc Inc.,Branded,10005000,Elastic Bandage (Medi-Clean) S-3 (3X5),PC,25.00
+Farmacia Ni Doc Inc.,Branded,10005001,Elastic Bandage (Medi-Clean) S-6 (6X5),BOX,47.50
+Farmacia Ni Doc Inc.,Branded,10005002,Elastic Bandage (Partners) S-6 (6X5),PC,47.50
+Farmacia Ni Doc Inc.,Branded,10005012,Examination Gloves (Large) Dr. Choice,BOX,151.79
+Farmacia Ni Doc Inc.,Branded,10005013,Examination Gloves (Large) Glomed,BOX,151.79
+Farmacia Ni Doc Inc.,Generic,10005014,Examination Gloves (Medium) Dr. Choice,BOX,151.79
+Farmacia Ni Doc Inc.,Generic,10005015,Examination Gloves (Medium) Glomed,BOX,151.79
+Farmacia Ni Doc Inc.,Generic,10005021,Face Mask (Perfect Care) 50',BOX,89.29
+Farmacia Ni Doc Inc.,Generic,10005022,Feeding Bottle (Sw) 2Oz 3',BOX,88.70
+Farmacia Ni Doc Inc.,Generic,10005023,Feeding Bottle (Sw) 8Oz 3',BOX,115.55
+Farmacia Ni Doc Inc.,Generic,10005024,Feeding Bottle (Sw) 9Oz 3',BOX,94.50
+Farmacia Ni Doc Inc.,Generic,10008375,FND Amoxicillin 250mg/5ml Susp 60ml/144',BT,29.80
+Farmacia Ni Doc Inc.,Generic,10008373,FND Amoxicillin 500mg Cap 100',BOX,159.00
+Farmacia Ni Doc Inc.,OTC,10008434,FND Ascorbic Acid Cap 500mg 100',BOX,128.00
+Farmacia Ni Doc Inc.,OTC,10008524,FND Losartan 100mg Tab 100',BOX,310.40
+Farmacia Ni Doc Inc.,OTC,10008521,FND Losartan 50mg Tab 100',BOX,195.00
+Farmacia Ni Doc Inc.,OTC,10008318,FND Vit. B Complex Tab 100',BOX,99.20
+Farmacia Ni Doc Inc.,OTC,10005034,Gauze Bandage (Partners) 3X10 Yds 12',BOX,175.01
+Farmacia Ni Doc Inc.,OTC,10005035,Gauze Bandage (Partners) 4X10 Yds 12',BOX,182.00
+Farmacia Ni Doc Inc.,OTC,10005036,Gauze Bandage (Sure Guard) 4X10 Yds 12',BOX,182.00
+Farmacia Ni Doc Inc.,OTC,10005054,Iv-Cannula G-18 (Indoplon) 1',BOX,11.16
+Farmacia Ni Doc Inc.,OTC,10005055,Iv-Cannula G-20 (Indoplon) 1',BOX,11.16
+Farmacia Ni Doc Inc.,OTC,10005096,Nasal Oxygen Cannula-Adult,PC,15.00
+Farmacia Ni Doc Inc.,OTC,10005097,Nebulizing Kit 1',PAC,31.25
+Farmacia Ni Doc Inc.,OTC,10005114,Non-WovenPlstr (Biotape) 1/2''X10Yds 24',BOX,174.12
+Farmacia Ni Doc Inc.,OTC,10005113,Non-WovenPlstr (Biotape) 1''X10Yds 12',BOX,150.00
+Farmacia Ni Doc Inc.,OTC,10005115,"Non-WovenPlstr (Sure Guard) 1""X10Yds 12'",BOX,150.00
+Farmacia Ni Doc Inc.,OTC,10005161,Povidone 10% 30ml,BT,25.20
+Farmacia Ni Doc Inc.,OTC,10004561,Pregnancy Test 50's (Sure Guard),BOX,263.00
+Farmacia Ni Doc Inc.,OTC,10005188,Surgical Gloves (Indoplas) S-7 50 Pairs,BOX,549.99
+Farmacia Ni Doc Inc.,OTC,10005203,Tongue Depressor Sterile 100',BOX,126.00
+Farmacia Ni Doc Inc.,OTC,10005213,Under Pads 10',BOX,122.50
+Meed Pharma,Generic,10004562,Aciclovir (Syclovir) Tab 800mg 100',BOX,2148.45
+Meed Pharma,Generic,10004592,Aciclovir (Xyclovirax) Tab 400mg 30',BOX,200.00
+Meed Pharma,Generic,10004879,Aciclovir (Xyclovirax) Tab 800mg 20',BOX,429.69
+Meed Pharma,Generic,10006099,Allopurinol (Allujen) 300mg Tab 100',BOX,225.00
+Meed Pharma,Generic,10004881,Allopurinol (Dm) 300mg Tab 100',BOX,225.00
+Meed Pharma,Generic,10004575,Allopurinol (Urisol) Tab 100mg 100',BOX,82.50
+Meed Pharma,Generic,10004552,Alum. Mag. (Medalem) Susp 60ml,BT,15.00
+Meed Pharma,Generic,10004553,Alum. Mag. (Shelogel) 200mg Tab 100's,BOX,78.00
+Meed Pharma,Generic,10005573,Ambroxol (Ambroflam) 30Mg Tab 100',BOX,40.00
+Meed Pharma,Prescription,10003353,Ambroxol (Broxolvan) Syr 15mg 60ml,BT,12.04
+Meed Pharma,Prescription,10004882,Ambroxol (Couxin) 30mg Syr 60ml,BT,13.45
+Meed Pharma,Prescription,10004369,Ambroxol (Couxin) 30mg Tab 100's,BOX,40.00
+Meed Pharma,Prescription,10004883,Ambroxol (Couxin) 6mg Drops 15ml,BT,16.00
+Meed Pharma,Prescription,10003349,Ambroxol (Couxin) Syr 15mg 60ml,BT,12.04
+Meed Pharma,Prescription,10005514,Ambroxol (Lycobrox) 15ml Drops,BT,16.00
+Meed Pharma,Prescription,10004379,Ambroxol (Mucolax) 30mg Syr 60ml,BT,13.45
+Meed Pharma,Prescription,10004370,Ambroxol (Saphroxol) 75mg Cap 100's,BOX,468.00
+Meed Pharma,Prescription,10004599,Ambroxol (Zovixol) 30mg Syr 60ml,BT,13.45
+Meed Pharma,Prescription,10006592,Ambroxol (Zovixol) Tab 30mg 100',BOX,40.00
+Meed Pharma,Prescription,10004884,Ambroxol 75mg Cap 100',BOX,468.00
+Meed Pharma,Branded,10004122,Ambroxol(Bioxol)Tab 30mg,BOX,40.00
+Meed Pharma,Branded,10004123,Ambroxol(Bromux)Drop 15ml,BT,16.00
+Meed Pharma,Branded,10003382,Ambroxol(Mucolax)Drops 7.5mg 15ml,BT,16.00
+Meed Pharma,Branded,10003352,Ambroxol(Saphroxol)Tab 30mg 100',BOX,40.00
+Meed Pharma,Branded,10005589,Amlodipine (Eodipine) Tablet 10mg 100',BOX,186.00
+Meed Pharma,Branded,10004515,Amlodipine (Norvatrol) Tab 10mg 100',BOX,186.00
+Meed Pharma,Branded,10004516,Amlodipine (Norvatrol) Tab 5mg 100',BOX,155.01
+Meed Pharma,Branded,10003339,Amlodipine (Philvasc) Tab 5mg 100',BOX,155.01
+Meed Pharma,Branded,10005361,Amlodipine 10Mg Tab 100'S (Lodipex),BOX,186.00
+Meed Pharma,Branded,10005362,Amlodipine 5Mg Tablet 100'S (Vw),BOX,155.01
+Meed Pharma,Generic,10004054,Amlodipine(Blocapast Forte)Tab 10mg 100',BOX,186.00
+Meed Pharma,Generic,10004051,Amlodipine(Blocapast)Tab 5mg 100',BOX,155.01
+Meed Pharma,Generic,10004277,Amlodipine(Proamlo)Tab 10mg 100',BOX,267.86
+Meed Pharma,Generic,10004278,Amlodipine(Proamlo)Tab 5mg 100',BOX,155.01
+Meed Pharma,Generic,10005515,Amoxicillin (Moxylor) 250mg Suspension,BT,20.96
+Meed Pharma,Generic,10005590,Amoxicillin (Moxylor) Capsule 250mg 100',BOX,101.00
+Meed Pharma,Generic,10004889,Amoxicillin (Varolox) 125mg Susp 60ml,BT,18.15
+Meed Pharma,Generic,10004890,Amoxicillin (Varolox) 250mg Susp 60ml,BT,20.96
+Meed Pharma,Generic,10005354,Amoxicillin 500Mg Cap (Mx) 100'S,BOX,159.50
+Meed Pharma,Generic,10003343,Amoxicillin(Ambimox)Cap 500mg 100',BOX,159.50
+Meed Pharma,Generic,10004114,Amoxicillin(Betamox)Drop 100mg/5ml,BT,14.00
+Meed Pharma,OTC,10004079,Amoxicillin(Eppitrexil)Drop 100mg/10ml,BT,14.00
+Meed Pharma,OTC,10004080,Amoxicillin(Eppitrexil)Susp 250mg,BT,20.96
+Meed Pharma,OTC,10003995,Amoxicillin(Jm Tolmann)Susp 125mg/60ml,BT,18.15
+Meed Pharma,OTC,10004078,Amoxicillin(Moxylor)Syr 125mg/60ml,BT,18.15
+Meed Pharma,OTC,10003346,Amoxicillin(Myrex)Syr 250mg 60ml,BT,20.96
+Meed Pharma,OTC,10003378,Amoxicillin(Vistrep)Cap 500mg 100',BOX,159.50
+Meed Pharma,OTC,10004886,AmoxicillinTrhydrt(Kylemed)250mgSusp60ml,BT,23.48
+Meed Pharma,OTC,10004049,AmoxicillinTrihydrte(Vhellox)Cap250mg100,BOX,140.40
+Meed Pharma,OTC,10004050,AmoxicillinTrihydrte(Vhellox)Cap500mg100,BOX,260.00
+Meed Pharma,Prescription,10004583,Ampalaya (Vonwelt) Cap 350mg 30',BOX,159.50
+Meed Pharma,Prescription,10004445,Ampicillin (Famacin) 500mg Cap 100',BOX,182.40
+Meed Pharma,Prescription,10004572,Ampicillin+Sulbactam(Unsin)750mgVial 10',BOX,299.00
+Meed Pharma,Prescription,10005528,Antacid(Calmsaph)200mg/100mg Tablet 100',BOX,78.00
+Meed Pharma,Prescription,10004127,Antacid(Shelogel Scheeley)Chewable Tab,BOX,78.00
+Meed Pharma,Prescription,10004894,Ascorbic (Meed-C) Syr 120ml,BT,22.00
+Meed Pharma,Prescription,10004895,Ascorbic (Myrevit C) Syr 60ml,BT,17.50
+Meed Pharma,Prescription,10006176,Multivitamins (Myrevit) Drops 15ml,BT,15.00
+Meed Pharma,Prescription,10004898,Ascorbic (Novacee) 100 Syr 60ml,BT,17.50
+Meed Pharma,Prescription,10004896,Ascorbic (Novacee) Drops 15ml,BT,15.00
+Meed Pharma,Prescription,10004897,Ascorbic (Novacee) Syr 120ml,BT,22.00
+Meed Pharma,Prescription,10004899,Ascorbic 500mg Tab 100',BT,137.50
+Meed Pharma,Generic,10005948,Ascorbic Acid (Ascophil) 500mg Tab 100',BOX,137.50
+Meed Pharma,Generic,10005363,Ascorbic Acid 500Mg Tab (Hav-C) 100'S,BOX,137.50
+Meed Pharma,Generic,10004121,Ascorbic Acid 500mg Tab (Vonwelt) 100',BOX,137.50
+Meed Pharma,Generic,10004096,Ascorbic Acid(Apcee) 500mg Tab 100',BOX,137.50
+Meed Pharma,Generic,10004095,Ascorbic Acid(Apcee)Syr 100mg 60ml,BT,17.50
+Meed Pharma,Generic,10003337,Ascorbic Acid(Biotech)Tab 500mg 100',BOX,137.50
+Meed Pharma,Generic,10004352,Ascorbic Acid(Cevit)Tab 500mg,BOX,137.50
+Meed Pharma,Generic,10003327,Ascorbic Acid(Meed-C)Syr 60ml,BT,17.50
+Meed Pharma,Generic,10005255,Ascorbic Acid + Zinc(Imucor-Z) 60ml,BT,17.50
+Meed Pharma,Generic,10004103,Ascorbic(Mx)Tab 500mg,BOX,137.50
+Meed Pharma,Generic,10004900,Ascorbic+Zinc (Apcee Plus) Syr 120ml,BT,29.30
+Meed Pharma,Generic,10004902,Ascorbic+Zinc (Apcee Plus) Syr 60ml,BT,16.80
+Meed Pharma,Generic,10004901,Ascorbic+Zinc(Imucor -Z)100mg Syr 250ml,BT,60.00
+Meed Pharma,Generic,10005591,Aspirin (Saphrin) Tablet 80mg 100',BOX,75.74
+Meed Pharma,Generic,10003362,Aspirin (Scheeprin) Tablet 80mg 100',BOX,75.74
+Meed Pharma,Generic,10004595,Atenolol (Zenobloc-100) 100mg Tab 100's,BOX,222.00
+Meed Pharma,Generic,10004596,Atenolol (Zenobloc-50) 50mg Tab 100's,BOX,152.50
+Meed Pharma,Generic,10004400,Atorvastatin (Astat) 20mg Tab 50',BOX,137.50
+Meed Pharma,Generic,10003385,Atorvastatin (Atorsaph-20) Tab 20mg 20',BOX,55.00
+Meed Pharma,Generic,10004534,Atorvastatin (Ranvast) 20mg Tab 100's,BOX,275.00
+Meed Pharma,OTC,10004905,Atorvastatin (Ranvast) 40mg Tab 100',BOX,450.00
+Meed Pharma,OTC,10003372,Atorvastatin(Brelvastin)Tab 40mg 100',BOX,450.00
+Meed Pharma,OTC,10004906,Azithromyzin (Ambimax) 500mg Tab 3',BOX,69.22
+Meed Pharma,OTC,10004415,Azithromyzin (Cytrazi) 500mg Tab 3's,BOX,69.22
+Meed Pharma,OTC,10004907,Azithromyzin (Zyhex) 500mg Tab 3',BOX,69.22
+Meed Pharma,OTC,10005217,BComplex+Iron+Bucli(ApcironPlus)Syr120ml,BT,105.00
+Meed Pharma,OTC,10005414,BComplex+Iron+Bucli(ApcironPlus)Syr60ml,BT,58.75
+Meed Pharma,OTC,10004924,Betahistine (Allerway) 16mg Tab 100',BOX,687.81
+Meed Pharma,OTC,10004429,Betahistine (Dizzex) 16mg Tab 100's,BOX,687.81
+Meed Pharma,OTC,10004580,Betahistine (Vertikind) 16mg Tab 100',BOX,1273.20
+Meed Pharma,Prescription,10004581,Betahistine (Vertikind) 8mg Tab 100's,BOX,1235.00
+Meed Pharma,Prescription,10004402,Betamethasone (Betnoderm) Cream 5g,PC,40.50
+Meed Pharma,Prescription,10004383,Bisacodyl (Dylax) 5mg Tab 100',BOX,68.90
+Meed Pharma,Prescription,10004058,Bisacodyl(Consti-Less)Tab 5mg 100',BOX,68.90
+Meed Pharma,Prescription,10004926,Bromhexine (Bisolem) 4mg Syrup 60ml,BT,14.58
+Meed Pharma,Prescription,10004403,Bromhexine (Vonwelt) 8mg Tab 100',BOX,18.15
+Meed Pharma,Prescription,10004927,Budesonide (Budeson) Nebule 35',BOX,1256.64
+Meed Pharma,Prescription,10004499,Butamirate (Mefecod) Tab 50mg,BOX,1012.01
+Meed Pharma,Prescription,10004522,Calci Carbonate+VitD3 (Osteovit) Tab 32',BOX,210.00
+Meed Pharma,Prescription,10004929,Calcium Carbonate (Dm) Tab 100',BOX,80.00
+Meed Pharma,Generic,10004584,Calcium Carbonate (Vonwelt) Tab 100',BOX,80.00
+Meed Pharma,Generic,10004930,Calcium Carbonate 500mg (Mineral) 100',BOX,80.00
+Meed Pharma,Generic,10004407,Calcium Lactate (Calcip)325mg Tab 100',BOX,81.30
+Meed Pharma,Generic,10004433,Calcium Lactate (Dm) Tab 100',BOX,81.30
+Meed Pharma,Generic,10004931,Captopril (Biopril) 25mg Tab 100',BOX,56.00
+Meed Pharma,Generic,10004408,Captopril (Captobes) 25mg Tab 100',BOX,56.00
+Meed Pharma,OTC,10004550,Captopril (Satcapto) 25mg Tab 100's,BOX,56.00
+Meed Pharma,OTC,10004932,Carbamazepine (Epihold) 200mg Tab 30',BOX,273.00
+Meed Pharma,OTC,10004421,Carbamazepine(Diamazepine)200mg Tab 100',BOX,273.00
+Meed Pharma,OTC,10005495,Carbocisteine (4 Cough) Syr 125Mg/5ml,BT,15.73
+Meed Pharma,OTC,10004933,Carbocisteine (Ceascol) 125mg Syr 60ml,BT,15.73
+Meed Pharma,OTC,10004419,Carbocisteine (Diacof) 500mg Cap 100',BOX,110.00
+Meed Pharma,OTC,10004504,Carbocisteine (Mucoflem) 500mg Cap 100',BOX,110.00
+Meed Pharma,Prescription,10004934,Carbocisteine (Nomocof) 100mg Syr 60ml,BT,15.00
+Meed Pharma,Prescription,10003336,Carbocisteine(Ceascol)50mg/5ml Drops15ml,BT,13.65
+Meed Pharma,Prescription,10004065,Carbocisteine(Ceascol)Cap 500mg,BOX,110.00
+Meed Pharma,Prescription,10004066,Carbocisteine(Ceascol)Syr 250mg/60ml,BT,19.85
+Meed Pharma,Prescription,10004132,Carbocisteine(Eura)Cap 500mg,BOX,110.00
+Meed Pharma,Prescription,10005510,Carbocisteine(Flemaliz) 500mg Caps. 100',BOX,110.00
+Meed Pharma,Prescription,10003992,Carbocisteine(Saphcisin-100)100mgSyr60ml,BT,15.00
+Meed Pharma,Prescription,10003345,Carbocisteine(Mucuxpel)Syr 100mg/60ml,BT,15.00
+Meed Pharma,Prescription,10003354,Carbocisteine(Myrex)Cap 500mg,BOX,110.00
+Meed Pharma,Prescription,10005256,Carbocisteine(Nomocof)Drops 15ml,BT,13.65
+Meed Pharma,Prescription,10003398,Carbocisteine(Voncartin)Cap 500mg 100',BOX,110.00
+Meed Pharma,Generic,10004937,Carvedilol (Eodilol) 25mg Tab 30',BOX,121.00
+Meed Pharma,Generic,10004938,Carvedilol (Glovedol) 6.25mg Tab 30',BOX,85.96
+Meed Pharma,Generic,10004524,Carvedilol (Pasved) 25mg Tab 30',BOX,121.00
+Meed Pharma,Generic,10004940,Cefaclor (Clormed) 250mg Susp 60ml,BT,120.00
+Meed Pharma,Generic,10004941,Cefaclor (Clormed) Drops 10ml,BT,60.00
+Meed Pharma,Generic,10005412,Cefaclor (Scheele) 125mg Susp 60ml,BT,78.00
+Meed Pharma,Generic,10004942,Cefaclor (Scheele) 250mg Susp 60ml,BT,120.00
+Meed Pharma,Generic,10004001,Cefaclor(Cefar)Drops 50mg/10ml,BT,60.00
+Meed Pharma,Generic,10004002,Cefaclor(Cefar)Susp 125mg/60ml,BT,78.00
+Meed Pharma,Generic,10004943,Cefalexin (Diacef) 125mg Susp 60ml,BT,28.50
+Meed Pharma,Generic,10004944,Cefalexin (Diacef)100mg Drops 10ml,BT,14.40
+Meed Pharma,Generic,10004945,Cefalexin (Edixin) Drops 10ml,BT,14.40
+Meed Pharma,OTC,10004946,Cefalexin (Exel) 100mg Drops 10ml,BT,14.40
+Meed Pharma,OTC,10004384,Cefalexin (Exel) Cap 500mg 100',BOX,247.50
+Meed Pharma,OTC,10004376,Cefalexin (Falteria) 250mg Cap 100',BOX,148.82
+Meed Pharma,OTC,10004460,Cefalexin (Vonwelt) 500mg Cap 100',BOX,247.50
+Meed Pharma,OTC,10003371,Cefalexin(Diacef)Susp 250mg/5ml 60ml,BT,24.50
+Meed Pharma,OTC,10004101,Cefalexin(Exel)125mg/5ml Susp 60ml,BT,28.50
+Meed Pharma,OTC,10004102,Cefalexin(Exel)Susp 250mg/5ml 60ml,BT,24.50
+Meed Pharma,OTC,10004057,Cefalexin(Falteria)Cap 500mg 100',BOX,247.50
+Meed Pharma,OTC,10003996,Cefalexin(Jm Tolmann)Drops 100mg/10ml,BT,14.40
+Meed Pharma,Branded,10003997,Cefalexin(Jm Tolmann)Susp 125mg/60ml,BT,28.50
+Meed Pharma,Branded,10003998,Cefalexin(Jm Tolmann)Susp 250mg/60ml,BT,24.50
+Meed Pharma,Branded,10004401,Cefixime (Aximeed) 200mg Tab 60',BOX,482.98
+Meed Pharma,Branded,10004947,Cefixime (Cefixsaph-100) 100mg Susp 60ml,BT,80.60
+Meed Pharma,Branded,10005524,Cefixime (Sanfix) 200mg Tablet 20',BOX,482.98
+Meed Pharma,Branded,10004948,Cefixime (Taxocef) Drops 10ml,BT,93.60
+Meed Pharma,Branded,10004949,Cefixime (Zefifarm) 100mg Susp 60ml,BT,80.60
+Meed Pharma,Branded,10003392,Cefuroxime (Luxime) Tab 500mg 10',BOX,201.25
+Meed Pharma,Branded,10004950,Cefuroxime (Myxetil) 250mg Susp 60ml,BT,138.00
+Meed Pharma,Branded,10004551,Cefuroxime (Secunda) 500mg Tab 10',BOX,125.00
+Meed Pharma,Generic,10004951,Cefuroxime (Sqcef) 125mg Susp 50ml,BT,108.60
+Meed Pharma,Generic,10004952,Cefuroxime (Sqcef) 250mg Susp 50ml,BT,138.00
+Meed Pharma,Generic,10004005,Cefuroxime(Biroxil)Susp 125mg/50ml,BT,108.60
+Meed Pharma,Generic,10004006,Cefuroxime(Biroxil)Susp 250mg/50ml,BT,138.00
+Meed Pharma,Generic,10004452,Celecoxib (Flacoxto) 200mg Caps 100',BOX,306.90
+Meed Pharma,Generic,10006441,Celecoxib (Saphelox) 200mg Cap 100',BOX,306.90
+Meed Pharma,Generic,10004589,Celecoxib (Xelic) 400mg Cap 100',BOX,1006.50
+Meed Pharma,Generic,10005364,Celecoxib 200Mg (Celix) 100'S,BOX,306.90
+Meed Pharma,Generic,10003361,Celecoxib(Saphlecox)Cap 200mg 100',BOX,306.90
+Meed Pharma,Generic,10004953,Cetirizine (Cetzy) 10mg Tab 100',BOX,93.50
+Meed Pharma,OTC,10004420,Cetirizine (Dialix) 10mg Tab 100',BOX,93.50
+Meed Pharma,OTC,10004497,Cetirizine (Cetalert) 2.5mg Drops 10ml,BT,21.04
+Meed Pharma,OTC,10004498,Cetirizine (Medrizine) 5mg Syr 60ml,BT,42.65
+Meed Pharma,OTC,10004128,Cetirizine(Allecur)Tab 10mg 100',BOX,93.50
+Meed Pharma,OTC,10003358,Cetirizine(Tracen)Tab 10mg 100',BOX,93.50
+Meed Pharma,OTC,10004548,Chloramphenicol (Saphenicol)500mg Cap100,BOX,294.01
+Meed Pharma,OTC,10004598,Chloramphenicol (Zinett) 500mg Cap 100',BOX,294.01
+Meed Pharma,OTC,10004955,Chloramphenicol 500mg Cap 100',BOX,294.01
+Meed Pharma,OTC,10004954,Chloramphenicol(Typheclor)125mgSusp 60ml,BT,27.19
+Meed Pharma,OTC,10005511,Chloramphenicol(Chlorolem) 125mg Susp 60,BT,27.19
+Meed Pharma,OTC,10004393,Chlorphenamine (Allermax) 4mg Tab 100',BOX,27.00
+Meed Pharma,Prescription,10004956,Chlorphenamine (Mervillar)2.5mg  Syr 60m,BT,25.96
+Meed Pharma,Prescription,10004353,Cinnarizine (Cinnarigo) 25mg Tab 100',BOX,70.00
+Meed Pharma,Prescription,10004585,Cinnarizine (Vonwelt) 25mg Tab 100',BOX,70.00
+Meed Pharma,Prescription,10006100,Ciprofloxacin (Cyfrox) 500mg Tab 100',BOX,253.45
+Meed Pharma,Prescription,10004958,Ciprofloxacin (Encif) 500mg Tab 100',BOX,253.45
+Meed Pharma,Prescription,10005250,Ciprofloxacin(Ciprosan)Tab 500mg 100',BOX,253.45
+Meed Pharma,Prescription,10004059,Ciprofloxacin(Floscicron)Tab 500mg 100',BOX,253.45
+Meed Pharma,Prescription,10004409,Citicoline (CitXL) Tab 500mg 24',BOX,718.75
+Meed Pharma,Prescription,10004559,Citicoline (Strocit) 500mg Tab 30',BOX,569.26
+Meed Pharma,Prescription,10005496,Clanza Cr Tab 200Mg 100',BOX,40.72
+Meed Pharma,Generic,10004486,Clarithromycin (Klarithix) 500mg Tab 30',BOX,324.50
+Meed Pharma,Generic,10004960,Clarithromycin (Rahmacin) 250mg Susp,BT,310.50
+Meed Pharma,Generic,10004959,Clarithromycin(Clariwell)125mg Susp 50ml,BT,126.50
+Meed Pharma,Generic,10004961,Clindamycin (Clinda-Gold) 150mg Cap 100',BOX,395.50
+Meed Pharma,Generic,10004411,Clindamycin (Clinda-Gold) 300mg Cap 100',BOX,389.99
+Meed Pharma,Generic,10004061,Clindamycin(Acresil)Cap 150mg 100',BOX,395.50
+Meed Pharma,Generic,10004062,Clindamycin(Acresil)Cap 300mg 100',BOX,389.99
+Meed Pharma,Generic,10004528,Clobetasol (Probelin) Cream 10g,PC,54.54
+Meed Pharma,Generic,10004386,Clonidine (Clodin) 150mg Tab 100',BOX,400.00
+Meed Pharma,Generic,10005947,Clonidine (Clodin) 75mg Tab 100',BOX,825.50
+Meed Pharma,Generic,10004430,Clonidine (Dm) 75mg Tab 100',BOX,825.50
+Meed Pharma,Generic,10004410,Clopidogrel (Class) 75mg Tab 100',BOX,330.85
+Meed Pharma,Generic,10004962,Clopidogrel (Clomep) 75mg Tab 100',BOX,330.85
+Meed Pharma,Generic,10005572,Clopidogrel (Saphlopid) 75Mg Tab 100',BOX,330.85
+Meed Pharma,OTC,10005275,Clopidogrel(Flamdovix)Tab 75mg 100',BOX,330.85
+Meed Pharma,OTC,10004963,Clotrimazole (Topiclo) Cream 20G,PC,58.52
+Meed Pharma,OTC,10004140,Cloxacillin (Cloxid) 250mg Cap 100',BOX,207.00
+Meed Pharma,OTC,10004964,Cloxacillin (Dialox) 250mg Susp 60ml,BT,32.00
+Meed Pharma,OTC,10004965,Cloxacillin (Myreclox) 250mg Susp 60ml,BT,32.00
+Meed Pharma,OTC,10004966,Cloxacillin (Nocloxol) 125mg Susp 60ml,BT,21.00
+Meed Pharma,OTC,10004967,Cloxacillin (Oxeed) 250mg Susp 60ml,BT,32.00
+Meed Pharma,OTC,10004527,Cloxacillin (Philclox) 500mg Cap 100',BOX,305.88
+Meed Pharma,Prescription,10006447,Cloxacillin (Uniclox) 500mg Cap 100',BOX,305.88
+Meed Pharma,Prescription,10003999,Cloxacillin(Cloxacin)Susp 250mg/60ml,BT,32.00
+Meed Pharma,Prescription,10004113,Cloxacillin(Diaclox)Dl Susp125mg/5ml60ml,BT,21.00
+Meed Pharma,Prescription,10004137,Cloxacillin(Dl)Cap 500mg,BOX,305.88
+Meed Pharma,Prescription,10004056,Cloxacillin(Flactamacin)Cap 500mg 100',BOX,305.88
+Meed Pharma,Prescription,10004000,Cloxacillin(Jm Tolmann)Susp 125mg/60ml,BT,21.00
+Meed Pharma,Prescription,10004126,Cloxacillin(Myreclox)Susp 125mg/5ml 60ml,BT,21.00
+Meed Pharma,Prescription,10004969,Co Amox (Clovimed) 156.25mg Susp 60ml,BT,102.00
+Meed Pharma,Prescription,10004968,Co Amox (Clovimed)250mg/62.5mg Susp 60ml,BT,124.44
+Meed Pharma,Prescription,10004970,Co Amoxiclav (Clovimed) 400mg Susp 70ml,BT,220.00
+Meed Pharma,Prescription,10004440,Co Amoxiclav (Endclav) 625mg Tab 14's,BOX,198.00
+Meed Pharma,Prescription,10004530,Co Amoxiclav (Raniclav) 625mg Tab 14's,BOX,198.00
+Meed Pharma,Prescription,10004003,Co-Amoxiclav(Megaclav)Susp 125mg/60ml,BT,102.00
+Meed Pharma,Generic,10004004,Co-Amoxiclav(Megaclav)Susp 250mg/60ml,BT,124.44
+Meed Pharma,Generic,10004412,Colchicine (Cocilone) 500mg Tab 10',BOX,168.00
+Meed Pharma,Generic,10004469,Colchicine (Goutnil) 500mg Tab 20',BOX,168.00
+Meed Pharma,Generic,10004972,Colchicine (Goutsaph) 500mg Tab 100',BOX,168.00
+Meed Pharma,Generic,10005277,Colchicine(Lesirheu)Tab 500mcg 100',BOX,201.60
+Meed Pharma,Generic,10003370,Colchicine(Vonwelt)Tab 500mcg 100',BOX,168.00
+Meed Pharma,Generic,10004110,Cotrimoxazole (Bactrex) 240mg Susp 60ml,BT,26.00
+Meed Pharma,Generic,10004086,Cotrimoxazole (Embatrim) 400mg Tab 100',BOX,75.62
+Meed Pharma,Generic,10003384,Cotrimoxazole (Embatrim) Tab 800mg,BOX,141.46
+Meed Pharma,Generic,10004973,Cotrimoxazole (Kathrex) 240mg Susp 60ml,BT,26.00
+Meed Pharma,Prescription,10003367,Cotrimoxazole (Kathrex) 480mg Susp 60ml,BT,27.28
+Meed Pharma,Prescription,10005512,Cotrimoxazole (Kathrex) 960mg Tab 100',BOX,141.45
+Meed Pharma,Prescription,10004974,Cotrimoxazole (Kylemed) 400mg Susp 60ml,BT,27.28
+Meed Pharma,Prescription,10004975,Cotrimoxazole (Trymerin) 240mg Susp 60ml,BT,26.00
+Meed Pharma,Prescription,10004976,Cotrimoxazole (Trymerin) 400mg Susp 60ml,BT,27.28
+Meed Pharma,Prescription,10004571,Cotrimoxazole (Trymerin) 400mg Tab 100',BOX,75.62
+Meed Pharma,Prescription,10004111,Cotrimoxazole(Bactrex)Tab 800mg,BOX,141.45
+Meed Pharma,Prescription,10004139,Cotrimoxazole(Diazole)Tab 800mg,BOX,141.45
+Meed Pharma,Branded,10003368,Cotrimoxazole(Kathrex)Tab 400mg 100',BOX,75.62
+Meed Pharma,Branded,10004088,Cotrimoxazole(Zolbach) 800mg Tab 100',BOX,141.45
+Meed Pharma,Branded,10005452,Depotrust 50mg / 3ml Vial 1',BOX,106.92
+Meed Pharma,Branded,10005523,Desloratadine (Allergon)  5mg Tablet 12',BOX,69.60
+Meed Pharma,Branded,10004563,Dexa+Neo+Poly(Syntemax)OpthlmicDrops 5ml,BT,130.00
+Meed Pharma,Branded,10004984,Dexamethasone (Dexat) 500Mcg Tab 100',BOX,51.00
+Meed Pharma,Branded,10004985,Dexamethasone (DM) 500Mcg Tab 100',BOX,51.00
+Meed Pharma,Branded,10004461,Dexamethasone (Generic) 500mcg Tab 100',BOX,51.00
+Meed Pharma,Branded,10004387,Dextromethorphan (Dli) 10mg Syr 60ml,BT,19.80
+Meed Pharma,Branded,10004540,Dextromethorphan (Respimax) 10mg Tab100,BOX,93.65
+Meed Pharma,OTC,10004425,Diclofenac (Diclogen) 100mg Tab 100',BOX,67.20
+Meed Pharma,OTC,10004986,Diclofenac (Philflam Dr) 50mg Tab 100',BOX,37.20
+Meed Pharma,OTC,10003364,Diclofenac(Dictas)Tab 50mg 100',BOX,44.80
+Meed Pharma,OTC,10004374,Dicycloverine (Lumar) 10mg Syr 60ml,BT,12.50
+Meed Pharma,OTC,10004987,Dicycloverine (Myrentil) 10mg Syrup 60ml,BT,12.50
+Meed Pharma,OTC,10004510,Dicycloverine (Myrentil) 10mg Tab 100',BOX,41.00
+Meed Pharma,OTC,10004426,Dicycloverine (Tolmann) 10mg Tab 100',BOX,41.00
+Meed Pharma,OTC,10004081,Dicycloverine(Myrentyl)Mx Susp 10mg/60ml,BT,12.50
+Meed Pharma,OTC,10004428,Digoxin (Dixin) 250mcg Tab 100's,BOX,370.01
+Meed Pharma,OTC,10004517,Diltiazem (Novoptin) 60mg Tab 100',BOX,312.49
+Meed Pharma,Prescription,10004594,Diltiazem (Zemdil) 30mg Tab 100',BOX,170.00
+Meed Pharma,Prescription,10004472,Diosmin+Hsprdn(Hemo Rid)450mg/50mgTab100,BOX,2473.84
+Meed Pharma,Prescription,10004473,Diphenhydramine (Diahist)12.5mg Syr60ml,BT,13.00
+Meed Pharma,Prescription,10004506,Diphenhydramine (Mucomed) 25mg Cap 100',BOX,57.12
+Meed Pharma,Prescription,10004474,Diphenhydramine Hcl(Histamox)50mg Cap100,BOX,66.92
+Meed Pharma,Prescription,10004989,Dipyridamole (Dm) 50mg Tab 100',BOX,200.40
+Meed Pharma,Prescription,10004990,Dipyridamole (Vasocor) 25mg Tab 100',BOX,95.93
+Meed Pharma,Prescription,10004994,Domperidone (Dompy) 1mg/5ml Susp 60ml,BT,67.10
+Meed Pharma,Prescription,10004435,Doxycycline (Doxyperl) 100mg Cap 100',BOX,237.66
+Meed Pharma,Prescription,10004377,Doxycycline (Moxylor) 100mg Cap 100',BOX,237.66
+Meed Pharma,Generic,10005323,Doxycycline 100MG Cap (Doxitar) 100'S,BOX,237.66
+Meed Pharma,Generic,10005325,Doxycycline 100MG Cap (MX),BOX,237.66
+Meed Pharma,Generic,10004537,Enalapril (Renite XL) 10mg Tab 100',BOX,312.00
+Meed Pharma,Generic,10004538,Enalapril (Renite XL) 5mg Tab 100',BOX,312.00
+Meed Pharma,Generic,10004558,Enalapril (Stalpril-20) 20mg Tab 30',BOX,312.00
+Meed Pharma,Generic,10005529,Erythromycin (Erysaph) 500mg Tablet 100',BOX,324.00
+Meed Pharma,Generic,10005004,Erythromycin (Monphevin) 200mg Susp 60ml,BT,57.81
+Meed Pharma,OTC,10004570,Erythromycin (Tromxene) 500mg Tab 100',BOX,324.00
+Meed Pharma,OTC,10004442,Erythromycin (Vonwelt) 200mg Susp. 60ml,BT,57.81
+Meed Pharma,OTC,10004443,Erythromycin(Eryzin)5mgOpthlmicOint 3.5,PC,126.00
+Meed Pharma,OTC,10005278,Erythromycin(Pertustat)Tab 500mg 100',BOX,324.00
+Meed Pharma,OTC,10004457,Esomeprazole (Frazone-40) 40mg Cap 30',BOX,199.29
+Meed Pharma,OTC,10004470,Ethambutol (Hambutol) 400mg Tab 100',BOX,275.97
+Meed Pharma,OTC,10005010,Ethambutol (Macleods) 400mg Tab 100',BOX,275.97
+Meed Pharma,OTC,10004564,Etoricoxib (Torico) 120mg Tab 30',BOX,487.51
+Meed Pharma,OTC,10005011,Etoricoxib (Torico) 90mg Tab 30',BOX,354.00
+Meed Pharma,Branded,10004590,Etoricoxib (Xibra) 90mg Tab 30',BOX,354.00
+Meed Pharma,Branded,10005525,Evening Primrose Oil (E-Rose) 1000mg 30',BOX,142.50
+Meed Pharma,Branded,10004447,Feel Good Lactium Cap 30',BOX,486.00
+Meed Pharma,Branded,10004494,Felodipine (Lupress) 5mg Tab 100',BOX,234.00
+Meed Pharma,Branded,10005025,Fenofibrate (Fenofast) 200mg Cap 50',BOX,300.01
+Meed Pharma,Branded,10004413,Ferrous Sulfate (Com-Femic)500mg Cap 100,BOX,162.00
+Meed Pharma,Generic,10005026,Ferrous Sulfate (Dm) 60ml,BT,13.75
+Meed Pharma,Generic,10005027,Ferrous Sulfate (Ferlum) 75mg Drops 15ml,BT,15.50
+Meed Pharma,Generic,10005028,Ferrous Sulfate (Hemovit) 325mg Tab 100',BOX,93.50
+Meed Pharma,Generic,10005029,Ferrous Sulfate (Tollman)75mg Drops 15ml,BT,15.50
+Meed Pharma,Generic,10005030,Ferrous Sulfate(Ferlum) Syrup 60ml,BT,13.75
+Meed Pharma,Prescription,10006663,Ferrous Sulfate(Ferricore)325mg Tab 100',BOX,93.50
+Meed Pharma,Prescription,10004395,Ferrous+Folic Acid(Ameciron)60mg/250mcg,BOX,63.70
+Meed Pharma,Prescription,10004449,FerrousFmrate+B2+B12+Folic(Fermed)Cap100,BOX,206.25
+Meed Pharma,Prescription,10004451,Finasteride (Finpros-5) 5mg Tab 100',BOX,585.00
+Meed Pharma,Prescription,10005031,Fixcom-2 Rifampicin+Isoniazid Tab 80',BOX,621.08
+Meed Pharma,Prescription,10004458,Fluconazole (Fungby) 150mg Cap 1',PC,30.00
+Meed Pharma,Prescription,10005032,Furazolidone (Diazolid) 100mg Tab 100',BOX,62.00
+Meed Pharma,Prescription,10005033,Furazolidone(Urazole)50mg/15ml Susp 60ml,BT,24.20
+Meed Pharma,Prescription,10004431,Furosemide (Dm) 20mg Tab 100',BOX,98.40
+Meed Pharma,Prescription,10004459,Furosemide (Fusedex) 40mg Tab 100',BOX,45.60
+Meed Pharma,OTC,10005037,GentaSulfte(Gentapro)3mg/ml .3%OpthaDrp,PC,95.11
+Meed Pharma,OTC,10005042,Glibenclamide (Glimide) 5mg Tab 100',BOX,27.00
+Meed Pharma,OTC,10004479,Glibenclamide (Hyporex) 5mg Tab 100',BOX,27.00
+Meed Pharma,OTC,10004422,Gliclazide (Diamir) 30mg Tab 30',BOX,169.00
+Meed Pharma,OTC,10004423,Gliclazide (Diamir) 30mg Tab 60',BOX,169.00
+Meed Pharma,OTC,10004593,Gliclazide (Zebet) 80mg Tab 100',BOX,247.49
+Meed Pharma,OTC,10005043,Glimepiride (Geopride) 4mg Tab 100',BOX,266.00
+Meed Pharma,OTC,10004491,Glimepiride (Losugar) 2mg Tab 100',BOX,108.00
+Meed Pharma,OTC,10004567,Glimepiride (Trimep-2) 2mg Tab 100',BOX,108.00
+Meed Pharma,OTC,10004467,Glipizide (Glucozide) 5mg Tab 100',BOX,414.02
+Meed Pharma,OTC,10004468,Glutha+Collagen (Glutha Plus) Cap 30',BOX,450.00
+Meed Pharma,OTC,10005044,Guai+Cpm+SodCitrate (Pluradec) Syr 120ml,BT,42.55
+Meed Pharma,OTC,10005045,Guai+Cpm+SodCitrate (Pluradec) Syr 60ml,BT,25.30
+Meed Pharma,OTC,10004404,Guaifenesin (Lumartuss) 100mg/5ml Syr 60,BT,14.00
+Meed Pharma,OTC,10004388,Guaifenesin (Drugmakers) 100mg Cap 100',BOX,122.40
+Meed Pharma,Prescription,10004476,Hydrocortisone (Hovicor) 15g Cream 1',PC,104.40
+Meed Pharma,Prescription,10004477,Hyoscine (Hyosaph) 10mg Tab 100',BOX,450.00
+Meed Pharma,Prescription,10004478,Hyoscine (Hyospan) Syr 60ml,BT,46.20
+Meed Pharma,Prescription,10005049,Hyoscine (Vonwelt) 10mg Tab 100',BOX,450.00
+Meed Pharma,Prescription,10004450,Ibuprofen (Fevral) 200mg Tab 100',BOX,114.00
+Meed Pharma,Prescription,10005050,Ibuprofen (Fevral) 400mg Tab 100',BOX,110.88
+Meed Pharma,Prescription,10004556,Ibuprofen (Sqfen) 200mg/5ml Susp 60ml,BT,42.00
+Meed Pharma,Prescription,10004526,Iron as sulfate (Pharmatech) 119mgTab100,BOX,93.50
+Meed Pharma,Prescription,10005413,Isonia+Pyrido (Vonwelt) 200mg Syr 60ml,BT,19.15
+Meed Pharma,Prescription,10005052,Isonia+Pyrido(EmizidPlus)200mg Syr 60ml,BT,19.15
+Meed Pharma,Prescription,10004485,Isoniazid (Isonix) 400mg Tab 100',BOX,135.70
+Meed Pharma,Prescription,10004484,Isoniazid+B6 200mg Syr 120ml,BT,33.00
+Meed Pharma,Prescription,10004439,Isoniazid+B6(EmizidPlus)200mgSyr120ml,BT,33.00
+Meed Pharma,Prescription,10004396,IsosorbideDinitrate(Andiospec)10mgTab100,BOX,88.75
+Meed Pharma,Prescription,10004577,IsosorbideMnntrt(Vasotrate)60mgTab70(Sr),BOX,473.00
+Meed Pharma,Prescription,10004514,IsosorbideMononitrte(Nitrofix)30mgTab100,BOX,575.00
+Meed Pharma,Prescription,10004437,Isoxsuprine (Duval) 10mg Tab 20',BOX,310.00
+Meed Pharma,Prescription,10005053,Isoxsuprine (Isoprine) 10mg Tab 40',BOX,310.00
+Meed Pharma,Branded,10005056,Kancura Herbal Tea 6X10 Tray,BOX,275.00
+Meed Pharma,Branded,10004354,Ketoconazole 20mg (Funginil-K)Cream 15mg,PC,59.15
+Meed Pharma,Branded,10005058,Ketoprofen (Dm) 50mg Cap 100',BOX,123.29
+Meed Pharma,Branded,10005063,Lactulose (Accelac) Syr 60ml,BT,85.00
+Meed Pharma,Branded,10004399,Lagundi (Asflem) 300mg Tab 100',BOX,149.50
+Meed Pharma,Branded,10005064,Lagundi (Asflem) 600mg Tab 100',BOX,252.00
+Meed Pharma,Branded,10005065,Lagundi (Negacof) 300mg Syr 120ml,BT,70.00
+Meed Pharma,Branded,10005066,Lagundi (Negacof) 300mg Syr 60ml,BT,48.00
+Meed Pharma,Branded,10005067,Lagundi (Oflemed) 300mg Syr 120ml,BT,70.00
+Meed Pharma,Branded,10005068,Lagundi (Cafgard) 300mg Syr 60ml,BT,48.00
+Meed Pharma,Branded,10004518,Lagundi (Ofplemed) 300mg Tab 100',BOX,149.50
+Meed Pharma,Branded,10004489,Levocetirizine (Lisinex) 5mg Tab 100',BOX,300.00
+Meed Pharma,Branded,10005069,Levofloxacin (Levosaph) 500mg Tab 100',BOX,334.82
+Meed Pharma,Branded,10004488,Levofloxacin (Levotab) 500mg Tab 100',BOX,482.14
+Meed Pharma,Branded,10005276,Levofloxacin(Flamidryl FC)Tab 500mg 30',BOX,540.00
+Meed Pharma,Branded,10004444,Levothyroxine (Eurolev) 50mcg Tab 90',BOX,178.25
+Meed Pharma,Branded,10005070,Lidocaine (Dolcaine) 20mg 50ml Vial 1',BOX,76.26
+Meed Pharma,Branded,10006562,Loperamide (Scheele) Cap 2mg 100',BOX,54.00
+Meed Pharma,Branded,10005071,Loperamide (Vexil) Cap 2mg 100',BOX,54.00
+Meed Pharma,Generic,10004503,Loperamide Hcl (Motirex) 2mg Cap 100',BOX,39.50
+Meed Pharma,Generic,10004130,Loperamide(Byerrhea Ambica)Cap 2mg,BOX,54.00
+Meed Pharma,Generic,10004131,Loperamide(Diastop)Cap,BOX,54.00
+Meed Pharma,Generic,10003369,Loperamide(Harvimide)Cap 2mg 100',BOX,54.00
+Meed Pharma,Generic,10004134,Loperamide(Motirex Mx)Cap 2mg,BOX,54.00
+Meed Pharma,Generic,10004490,Loratadine (Lorarex) 5mg Syr 60ml,BT,26.40
+Meed Pharma,Generic,10005513,Losartan (Vonwelt) 50mg Tablet 100',BOX,198.00
+Meed Pharma,Generic,10005072,Losartan +Hctz (A.R.A+H) 50mg Tab 100',BOX,160.00
+Meed Pharma,Generic,10004398,Losartan +Hctz (Artal H) 50mg Tab 100',BOX,160.00
+Meed Pharma,Generic,10005073,Losartan +Hctz (Losawin-H) 50mg Tab 100',BOX,160.00
+Meed Pharma,Generic,10004048,Losartan K(Cotenace)Tab 50mg 100',BOX,198.00
+Meed Pharma,Generic,10004274,Losartan K(Lipewin)Tab 100mg 30',BOX,360.00
+Meed Pharma,Generic,10004275,Losartan K(Lipewin)Tab 50mg 30',BOX,198.00
+Meed Pharma,Generic,10004115,Losartan K(Lobip)50mg,BOX,198.00
+Meed Pharma,Generic,10003380,Losartan Potassium (Angel50)Tab 50mg 100,BOX,198.00
+Meed Pharma,Generic,10003389,Losartan Potassium (Lobip) Tab 100mg 100,BOX,301.00
+Meed Pharma,Generic,10003365,Losartan Potassium(Losawin)Tab 100mg 100,BOX,279.40
+Meed Pharma,Generic,10004082,Losartan Tab (Lozak) 100mg 100',BOX,360.00
+Meed Pharma,Generic,10004586,Lutein+Beta Carotene (Vonwelt) Cap 30',BOX,66.00
+Meed Pharma,Generic,10004448,Malunggay (Feralac) 500mg Cap 100',BOX,138.00
+Meed Pharma,Generic,10004108,MBZ(Hemilax)Lr Susp 100mg/5ml 60ml,BT,19.60
+Meed Pharma,Generic,10003375,Mebendazole (Drugmaker) Syr 60ml,BT,19.60
+Meed Pharma,Generic,10003393,Mebendazole (Myrex) Susp 100mg/5ml 60ml,BT,19.60
+Meed Pharma,OTC,10004587,Meclizine Hydrochloride(Vonwelt)25mg 100,BOX,225.40
+Meed Pharma,OTC,10005951,MeclizineHydrchloride(Bonazil)25mgTab100,BOX,225.40
+Meed Pharma,OTC,10004391,Mefenamic (Mefesaph) 50mg Susp. 60ml,BT,14.85
+Meed Pharma,OTC,10005252,Mefenamic (Analmin) 250mg Cap 100',BOX,66.00
+Meed Pharma,OTC,10005074,Mefenamic (Myrefen) 50mg Susp 60ml,BT,14.85
+Meed Pharma,OTC,10004496,Mefenamic (Mecid) 500mg Cap 100',BOX,137.50
+Meed Pharma,OTC,10006595,Mefenamic (Mefein) Tab 500mg 100',BOX,137.50
+Meed Pharma,OTC,10004500,Mefenamic (Mefesaph) 500mg Tab 100',BOX,137.50
+Meed Pharma,OTC,10004508,Mefenamic (Myrefen) 250mg Cap 100',BOX,66.00
+Meed Pharma,OTC,10005337,Mefenamic Acid (Megyxan) 500mg tab 100',BOX,137.50
+Meed Pharma,OTC,10003335,Mefenamic Acid(Analmin)Cap 500mg 100',BOX,137.50
+Meed Pharma,OTC,10004106,Mefenamic(Biomef)Tab 500mg,BOX,137.50
+Meed Pharma,OTC,10006593,Meloxicam (Teracam) Tab 15mg 100',BOX,279.00
+Meed Pharma,OTC,10004063,Meloxicam(Flamicxine)Tab 15mg 100',BOX,279.00
+Meed Pharma,OTC,10003373,Meloxicam(Melofar)Tab 15mg 100',BOX,279.00
+Meed Pharma,OTC,10005274,Metformin(Adiac)Tab 500mg 100',BOX,68.00
+Meed Pharma,OTC,10003347,Metformin(Saphormin)Tab 500mg 100',BOX,61.00
+Meed Pharma,Prescription,10005076,Methyldopa (Dopathyl) 250mg Tab 100',BOX,562.00
+Meed Pharma,Prescription,10004576,Methyldopa (Vamsler) 250mg Tab 100',BOX,562.00
+Meed Pharma,Prescription,10004441,Methylrgmtrne(Ergon)125mcg Tab100(FCted),BOX,144.00
+Meed Pharma,Prescription,10004501,Metoclopromide (Meto) 10mg Tab 100',BOX,82.50
+Meed Pharma,Prescription,10004507,Metoclopromide (Myclosil) Syr 60ml,BT,15.15
+Meed Pharma,Prescription,10004389,Metoprolol (Dli) 50mg Tab 100',BOX,73.75
+Meed Pharma,Prescription,10004085,Metoprolol(B-Bloc)Tab 100mg,BOX,160.00
+Meed Pharma,Prescription,10005251,Metoprolol(Prolol)Tab 50mg,BOX,73.75
+Meed Pharma,Prescription,10003360,Metoprolol(Prometin)Tab 50mg 100',BOX,73.75
+Meed Pharma,Prescription,10004453,Metronidazole (Metrozole) 125mg Susp 60m,BT,16.23
+Meed Pharma,Prescription,10004454,Metronidazole (Flagex) 500mg Tab 100',BOX,85.30
+Meed Pharma,Prescription,10004462,Metronidazole (Vonwelt) 500mg Tab 100',BOX,85.30
+Meed Pharma,Prescription,10004394,Metronidazole(Ambidazole)125mg Susp 60ml,BT,16.23
+Meed Pharma,Prescription,10005077,Montelukast (Aurohex) 4mg Tab 100',BOX,273.00
+Meed Pharma,Prescription,10004381,Montelukast (Aurohex) 5mg Tab 100',BOX,423.50
+Meed Pharma,Prescription,10005078,Montelukast (Fuliget) 5mg Tab 100',BOX,423.50
+Meed Pharma,Prescription,10005079,Montelukast Na (Sydenkast) FC 10mg 100',BOX,875.04
+Meed Pharma,Prescription,10004060,Montelukast(Aurohex)Tab 10mg 100',BOX,852.50
+Meed Pharma,Prescription,10005080,Multi+Lysin+Tau+Cgf (PryceKidz)Syr 120ml,BT,97.85
+Meed Pharma,Generic,10005081,Multi+Lysin+Tau+Cgf (PryceKidz)Syr 250ml,BT,125.00
+Meed Pharma,Generic,10005082,Multi+Mineral+Cgf (Pryce Teens) Cap 50',BOX,337.50
+Meed Pharma,Generic,10004539,Multi+Mineral+Iron (Reprogen-Ob) Cap 30',BOX,88.40
+Meed Pharma,Generic,10006450,Multivitamins (Diamond) Syr 60ml,BT,21.56
+Meed Pharma,Generic,10004483,Multivitamins (Ironvit) Cap 100',BOX,106.00
+Meed Pharma,Generic,10005083,Multivitamins (Mdvit) Syrup 60ml,BT,21.56
+Meed Pharma,Generic,10004365,Multivitamins (Multilem) Cap 100,BOX,160.00
+Meed Pharma,Generic,10003326,Multivitamins (Multilem) Syr 60ml,BT,21.56
+Meed Pharma,Generic,10005084,Multivitamins (Multilem) Syrup 120ml,BT,25.76
+Meed Pharma,Generic,10005842,Multivitamins (Fulvit) Syr 120ml,BT,25.76
+Meed Pharma,Generic,10004511,Multivitamins (Myrevit) Cap 100',BOX,160.00
+Meed Pharma,OTC,10005085,Multivitamins (Myrevit) Syrup 120ml,BT,25.76
+Meed Pharma,OTC,10003396,Multivitamins (Regivit) Syr 60ml,BT,21.56
+Meed Pharma,OTC,10003341,Multivitamins(Mdvit)Drops 100mg,BT,17.60
+Meed Pharma,OTC,10004112,Multivitamins(Multicaps)Cap,BOX,160.00
+Meed Pharma,OTC,10004064,Multivitamins(Multilem)Drops 15ml,BT,17.60
+Meed Pharma,OTC,10003328,Multivitamins(Multimeed)Syr 60ml,BT,21.56
+Meed Pharma,OTC,10005254,Multivitamins(Multimeeds)Cap,BOX,160.00
+Meed Pharma,OTC,10004104,Multivitamins (Myrevit) Syr 60ml,BT,21.56
+Meed Pharma,OTC,10004097,Multivitamins(Myrex)Syr 60ml,BT,21.56
+Meed Pharma,Prescription,10004092,Multivitamins (Vitasaph) Syr 60ml,BT,21.56
+Meed Pharma,Prescription,10004093,Multivitamins(Tovit)Drop 100mg,BT,17.60
+Meed Pharma,Prescription,10004471,Multivitamins+Iron (Hanizyn) Cap 100',BOX,106.00
+Meed Pharma,Prescription,10005086,Multivitamins+Iron (Ironvit) Drops 15ml,BT,34.80
+Meed Pharma,Prescription,10004099,Multivitamins+Iron (Vonwelt) Cap 100',BOX,106.00
+Meed Pharma,Prescription,10005087,Multivitamins+Iron(MultilemPlus)Syr120ml,BT,40.30
+Meed Pharma,Prescription,10005088,Multivitamins+Iron(MultilemPlus)Syr60ml,BT,25.08
+Meed Pharma,Prescription,10005093,Mupirocin (Bactrofar) 20mg Ointment 5G,BOX,100.00
+Meed Pharma,Prescription,10004502,Mupirocin (Microscot) 20mg Ointment 5g,PC,100.00
+Meed Pharma,Prescription,10008076,Mupirocin (Mirocid) 20mg Ointment 5g,PC,100.00
+Meed Pharma,Prescription,10005094,Mupirocin (Mupiban) 20mg Ointment 5G,PC,100.00
+Meed Pharma,OTC,10004555,Naproxen (Sonap) 500mg Tab 100',BOX,550.00
+Meed Pharma,OTC,10004513,Nifedipine (Nicardia) 10mg Cap 100',BOX,243.75
+Meed Pharma,OTC,10005098,Nifedipine (Nicardia) 5mg Cap 100',BOX,175.00
+Meed Pharma,OTC,10005116,Nystatin (Fungistat) Susp 30ml,BT,86.25
+Meed Pharma,OTC,10005117,Nystatin (Mystin) Susp 30ml,BT,86.25
+Meed Pharma,OTC,10004492,Ofloxacin (Loxcin) 200mg Tab 100',BOX,144.00
+Meed Pharma,OTC,10005527,Omega-3 Fish Oil 1000mg 30',BOX,341.60
+Meed Pharma,OTC,10008029,Omeprazole (Inhibita) 40mg Cap 100',BOX,396.00
+Meed Pharma,OTC,10004482,Omeprazole (Inhibita) 40mg Cap 20',BOX,108.00
+Meed Pharma,OTC,10005597,Omeprazole (Omepzol) 20mg Cap 100',BOX,396.00
+Meed Pharma,OTC,10006440,Omeprazole (Zosec) 20mg Tab 100',BOX,396.00
+Meed Pharma,Branded,10004053,Omeprazole(Flazomel)Cap 20mg 100',BOX,396.00
+Meed Pharma,Branded,10003390,Omeprazole(Omebloc)Cap 20mg 100',BOX,396.00
+Meed Pharma,Branded,10003395,Omeprazole(Omephil-20)Cap,BOX,396.00
+Meed Pharma,Branded,10004120,Omeprazole(Parlozan)Fpl Cap 20mg,BOX,396.00
+Meed Pharma,Branded,10004416,Ors-75 (Dehydrosol) 25's Sachet,BOX,66.25
+Meed Pharma,Branded,10005138,Pantoprazole (Pancer) 40mg Tab 100',BOX,400.00
+Meed Pharma,Branded,10004424,Para+Ibuprofen (Diatafen) Cap 100',BOX,95.45
+Meed Pharma,Branded,10004523,Para+Ibuprofn(Painaide)325mg/200mgTab100,BOX,95.45
+Meed Pharma,Branded,10004505,Para+Phenylep+Dextro(Mucolem Plus)Cap100,BOX,162.00
+Meed Pharma,Branded,10005139,Para+Ppa+Cpm (Symdex-D) Drops 15ml,BT,31.05
+Meed Pharma,Branded,10005140,Para+Ppa+Cpm (Symdex-D) Syr 60ml,BT,33.60
+Meed Pharma,Branded,10004434,Para+Tramadol (Dolsaph) Tab 100',BOX,495.00
+Meed Pharma,Generic,10004436,Para+Tramadol (Duotram) Tab 100',BOX,495.00
+Meed Pharma,Generic,10004378,Paracetamol (Myrex) 125mg Susp 60ml,BT,22.30
+Meed Pharma,Generic,10005141,Paracetamol (Myremol) 125mg Susp 60ml,BT,22.30
+Meed Pharma,Generic,10005142,Paracetamol (Myremol) 250mg Susp 60ml,BT,27.72
+Meed Pharma,Generic,10004509,Paracetamol (Myremol) 500mg Tab 100',BOX,60.50
+Meed Pharma,Generic,10005143,Paracetamol (Novamol) 125mg Susp 60ml,BT,22.30
+Meed Pharma,Generic,10005144,Paracetamol (Novamol) Drops 15ml,BT,20.50
+Meed Pharma,Generic,10005145,Paracetamol (Novamol) Susp 250mg 60ml,BT,27.72
+Meed Pharma,Generic,10005147,Paracetamol Drops (Myremol) 15ml,BT,20.50
+Meed Pharma,Generic,10004069,Paracetamol(Aza)Susp 125mg/5ml 60ml,BT,22.30
+Meed Pharma,Generic,10004094,Paracetamol(Azarias)Susp 250mg/5ml 60ml,BT,27.72
+Meed Pharma,Generic,10004071,Paracetamol(Biogic)Aza Drops,BT,20.50
+Meed Pharma,Generic,10004072,Paracetamol(Biogic)Aza Tab 500mg,BOX,60.50
+Meed Pharma,Generic,10004073,Paracetamol(Biogic)Susp 125mg/5ml 60ml,BT,22.30
+Meed Pharma,Prescription,10004074,Paracetamol(Biogic)Susp 250mg/5ml 60ml,BT,27.72
+Meed Pharma,Generic,10004107,Paracetamol(Flugard)Tab 500mg,BOX,60.50
+Meed Pharma,Generic,10003357,Paracetamol(Myrex)Drops 15ml,BT,20.50
+Meed Pharma,Generic,10003350,Paracetamol(Myrex)Susp 250mg/5ml 60ml,BT,27.72
+Meed Pharma,Generic,10004119,Paracetamol(Oramol)Tab 500mg,BOX,60.50
+Meed Pharma,Generic,10003334,Paracetamol(Para 250)Syr 250mg/60ml,BT,27.72
+Meed Pharma,Generic,10004068,Paracetamol(Milgesic)Drops 15ml,BT,20.50
+Meed Pharma,Generic,10004076,Paracetamol(Hyfer-125)Syr 125mg/60ml,BT,22.30
+Meed Pharma,Generic,10004124,Paracetamol(Parasaph-B)Tab 500mg 100',BOX,60.50
+Meed Pharma,Generic,10004047,Paracetamol(Rapidol)Tab 500mg 100',BOX,60.50
+Meed Pharma,Generic,10003330,Paracetamol(Tempmed)Drops 15ml,BT,20.50
+Meed Pharma,Generic,10003331,Paracetamol(Milgesic)Susp 125mg/5ml 60ml,BT,22.30
+Meed Pharma,Generic,10003329,Paracetamol(Tempmed)Susp250mg/5ml 60ml,BT,27.72
+Meed Pharma,Generic,10003377,Paracetamol(Parawell)Susp125mg/5ml60ml,BT,22.30
+Meed Pharma,Generic,10005148,Phenylpropanolamin(4Nazal)12.5mgSyr 60ml,BT,18.00
+Meed Pharma,Generic,10003376,Phenylpropanolamine (Symdex-D) Tab 100',BOX,200.00
+Meed Pharma,Prescription,10005366,Phenylpropanolamine 12.5Mg 60Ml (Aza),BT,18.00
+Meed Pharma,Prescription,10004084,Phenylpropanolamine(Mx)Drops 6.25/15ml,BT,14.85
+Meed Pharma,Prescription,10003342,Phenylpropanolamine(Myrex)Drops 15ml,BT,14.85
+Meed Pharma,Prescription,10004067,Phenylpropanolamine(Myrex)Syr 12.5/60ml,BT,18.00
+Meed Pharma,Prescription,10006563,Phenylpropanolamine4Nazal6.25mgDrops15ml,BT,14.85
+Meed Pharma,Prescription,10006568,PhenylpropanolamineArnopherin12.5mgS60ml,BT,18.00
+Meed Pharma,Prescription,10005150,Phenylpropanolamn(Desostop)6.25mgDrp15ml,BT,14.85
+Meed Pharma,Generic,10005149,Phenylpropanolamn(Desotap)12.5mgSyr60ml,BT,18.00
+Meed Pharma,Generic,10005151,Phenylpropanolamn/Guia(Cherryl) Syr 60ml,BT,30.60
+Meed Pharma,Generic,10003383,Phenylpropnlamine(Noe-Drin)Syr12.5mg60ml,BT,18.00
+Meed Pharma,Generic,10003332,Phenylprpnolamne(Sinudrin)Drps6.25mg15ml,BT,14.85
+Meed Pharma,Generic,10003333,Phenylprpnolamne(Sinudrin)Syr12.5mg60ml,BT,18.00
+Meed Pharma,Generic,10005355,Phenypropanolamine 6.25mg/15ml Drp (Aza),BT,14.85
+Meed Pharma,OTC,10004465,Pioglitazone (Glito) 15mg Tab 100',BOX,462.00
+Meed Pharma,OTC,10004466,Pioglitazone (Glito) 30mg Tab 100',BOX,462.00
+Meed Pharma,OTC,10005152,Piracetam (Brentor) 400mg Tab 100',BOX,414.00
+Meed Pharma,OTC,10004438,Piracetam (Embol) 400mg Cap 100',BOX,414.00
+Meed Pharma,OTC,10004541,Piracetam (Retento) 800mg Tab 30',BOX,276.00
+Meed Pharma,OTC,10005153,Pizotifen (Pediapetite) Susp 60ml,BT,41.44
+Meed Pharma,OTC,10004392,PotassiumCitrateAlkalinse1080mgTab30'ER,BOX,134.45
+Meed Pharma,OTC,10004070,PPA Cold Off(Aza)Drops 6.25/15ml,BT,14.85
+Meed Pharma,OTC,10005162,Prednisolone (Impresol) 15mg Syr 60ml,BT,97.50
+Meed Pharma,OTC,10004414,Prednisone (Cort) 20mg Tab 100',BOX,262.51
+Meed Pharma,OTC,10004418,Prednisone (Derpson) 5mg Tab 100',BOX,46.25
+Meed Pharma,OTC,10004487,Prednisone (Lefesone) 10mg Susp 60ml,BT,78.75
+Meed Pharma,Branded,10004588,Prednisone (Vonwelt) 10mg Tab 100',BOX,69.00
+Meed Pharma,Branded,10004091,Provexel Ns 1mg/ml 30',BOX,335.00
+Meed Pharma,Branded,10004432,Pyrantel Pamoate (Dm) 250mg Susp 60ml,BT,46.20
+Meed Pharma,Branded,10004529,Pyrazinamide (Pyramin) 250mg Syrup 60ml,BT,67.10
+Meed Pharma,Branded,10004531,Ranitidine (Raniphil) 150mg Tab 100',BOX,75.35
+Meed Pharma,Branded,10004532,Ranitidine (Raniphil) 300mg Tab 100',BOX,156.25
+Meed Pharma,Branded,10004446,Rifampicin (Famcin) 450mg Cap 100',BOX,504.00
+Meed Pharma,Branded,10006111,Rifampicin (Lyvifam) 200mg Susp 120ml,BT,227.36
+Meed Pharma,Generic,10005169,Rifampicin (Lyvifam) 200mg Susp 60ml,BT,116.48
+Meed Pharma,Generic,10004542,Rosuvastatin (Rost) 10mg Tab 100',BOX,483.00
+Meed Pharma,Generic,10004543,Rosuvastatin (Rost) 20mg Tab 100',BOX,713.00
+Meed Pharma,Generic,10004544,Rosuvastatin (Rosuvaz) 20mg Tab 30',BOX,713.00
+Meed Pharma,Generic,10005177,Salbu+Guai (Butamol Plus) Syr 60ml,BT,14.10
+Meed Pharma,Generic,10005178,Salbu+Guai (Ventrobox) Syr 60ml,BOX,14.10
+Meed Pharma,Generic,10004578,Salbu+Guia (Ventrobox) Cap 100',BOX,93.90
+Meed Pharma,OTC,10003391,Salbutamol (Butamol)Tab 4Mg 100',BOX,59.52
+Meed Pharma,OTC,10004475,Salbutamol (Hivent) 1mg Nebule 30',BOX,411.02
+Meed Pharma,OTC,10003397,Salbutamol (Ventomax) Tab 4mg 100',BOX,59.52
+Meed Pharma,Prescription,10004547,Salbutamol (Vonwelt) 4mg Tab 100',BOX,59.52
+Meed Pharma,Prescription,10004546,Salbutamol Inhaler (Salbumin),BOX,87.50
+Meed Pharma,Prescription,10004105,Salbutamol Nebules(Asma-Gone)30',BOX,411.02
+Meed Pharma,Prescription,10003359,Salbutamol(Aero-Vent)Nebule 30',BOX,411.02
+Meed Pharma,Prescription,10003351,Salbutamol(Asmamed)Syr 60ml,BT,12.60
+Meed Pharma,Prescription,10004087,Salbutamol(Bioxal)Tab 2mg 100',BOX,31.50
+Meed Pharma,Prescription,10004052,Salbutamol(Bronelid Forte)Tab 4mg 100',BOX,59.52
+Meed Pharma,Prescription,10004083,Salbutamol(Butamol)Syr 2mg 60ml,BT,12.60
+Meed Pharma,Prescription,10004136,Salbutamol(Ventomax Dli) 2mg Tab 100',BOX,31.50
+Meed Pharma,Prescription,10004117,Salbutamol(Nobutol)Syr 2mg 60ml,BT,12.60
+Meed Pharma,Generic,10004574,Sambong (Urisam) 500mg Tab 100',BOX,448.80
+Meed Pharma,Generic,10004535,Sambong Leaf (Renaleaf) 250mg Tab 100',BOX,172.50
+Meed Pharma,Generic,10004536,Sambong Leaf (Renaleaf) 500mg Tab 100',BOX,448.80
+Meed Pharma,Generic,10004495,Silver Sulfadiazine(Mazine)10mg/g Crm20g,PC,71.00
+Meed Pharma,Generic,10005530,Simvastatin (Lipidrex) 20mg Tablet 100',BOX,205.00
+Meed Pharma,Generic,10004372,Simvastatin (Philstat) 10mg Tab 100',BOX,68.90
+Meed Pharma,Generic,10004380,Simvastatin (Zimvast) 20mg Tab 100',BOX,205.00
+Meed Pharma,Generic,10004089,Simvastatin (Zimvast) Tab 40mg,BOX,294.39
+Meed Pharma,Generic,10003374,Simvastatin(Diastatin)Tab 40mg 100',BOX,294.39
+Meed Pharma,Generic,10003387,Simvastatin(Novovast)Tab 40mg 100',BOX,294.39
+Meed Pharma,Generic,10003366,Simvastatin(Philstat)Tab 20mg 100',BOX,205.00
+Meed Pharma,Generic,10004525,Sodium Ascorbate (Per-C) Cap 100',BOX,125.00
+Meed Pharma,Generic,10004463,Telmisartan 40mg Tab 30',BOX,270.00
+Meed Pharma,Generic,10004464,Telmisartan 80mg Tab 30',BOX,375.00
+Meed Pharma,OTC,10004493,Terbutaline (Lungex) 2.5mg Tab 100',BOX,40.70
+Meed Pharma,OTC,10004579,TerbutalneSulft(Ventryl)1.5mg/5mlSyr60ml,BT,12.50
+Meed Pharma,OTC,10004519,Tobramycin (Consac) 3mg/ml .3% 5ml Optha,PC,117.00
+Meed Pharma,OTC,10005202,Tobramycn(Tobrin)3mg/ml .3% 5ml Optha So,BT,117.00
+Meed Pharma,OTC,10005204,Tramadol (Ambidol) 100mg/2ml Amp 10',BOX,97.50
+Meed Pharma,OTC,10004545,Tramadol (Rounox) 50mg Cap 100',BOX,150.00
+Meed Pharma,OTC,10004549,Tramadol (Saphtram) 50mg Cap 100',BOX,150.00
+Meed Pharma,OTC,10004566,Tranexamic (Tranext) 500mg Cap 100',BOX,325.00
+Meed Pharma,OTC,10005205,Tranexamic (Vonwelt) 500mg Cap 100',BOX,325.00
+Meed Pharma,OTC,10004427,Trimetazidine (Dinemic) 20mg Tab 100',BOX,300.00
+Meed Pharma,Prescription,10004557,Trimetazidine (Sr Dinemic) 35mg Tab 100',BOX,500.96
+Meed Pharma,Prescription,10004568,Trimetazidine (Trimex) 35mg Tab 100',BOX,500.96
+Meed Pharma,Prescription,10005218,Vit. B Complex+Iron+Buclizine Syrup 60ml,BT,58.75
+Meed Pharma,Prescription,10004417,Vit. E 400Iu Softgel (Della-E) Cap 30',BOX,112.50
+Meed Pharma,Prescription,10004397,Vit.B Com+Iron+Buclzn(ApcironPlus)Cap100,BOX,345.01
+Meed Pharma,Prescription,10004109,Vitamin B1+B6+B12(Myrevit-B)Mx Tab 100mg,BOX,140.00
+Meed Pharma,Prescription,10004597,Zinc(Immunosaph-55) Syrup 60ml,BT,30.80
+Meed Pharma,Prescription,10005227,Zinc Sulfate (Zinlum) Drops 15ml,BT,19.50
+Meed Pharma,Prescription,10005226,Zinc(Enerzinc) Syr 20mg  60ml,BT,30.80
+Qualifirst,Prescription,10004971,Co Amoxiclav (Qualiclav) 625mg Tab 20',BOX,245.03
+Rilem Pharma,Branded,10008204,Alum. Mag. (Medalem) 200mg Tab 100',BOX,78.00
+Rilem Pharma,Branded,10008205,Ambroxol (Ambrolem) Drops 15ml,BT,16.00
+Rilem Pharma,Branded,10008206,Amoxicillin (Axmel) Cap 500mg 100',BOX,159.50
+Rilem Pharma,Branded,10008268,Amoxicillin (Moxylor) 100mg Drops 10ml,BT,14.00
+Rilem Pharma,Branded,10008210,Ascorbic (Vitcee) 500mg Tab 100',BT,137.50
+Rilem Pharma,Branded,10008209,Ascorbic (Vitcee) Drops 15ml,BT,15.00
+Rilem Pharma,Branded,10008207,Ascorbic (Vitcee) Syr 120ml,BT,22.00
+Rilem Pharma,Branded,10008212,Ascorbic (Vitcee) Syr 250ml,BT,60.00
+Rilem Pharma,Branded,10008208,Ascorbic (Vitcee) Syr 60ml,BT,17.50
+Rilem Pharma,Branded,10008211,Ascorbic+Zinc (Vitcee Plus) Syr 120ml,BT,29.30
+Rilem Pharma,Branded,10008214,Aspirin (Philprin) Tablet 80mg 100',BOX,75.74
+Rilem Pharma,Prescription,10008216,BComplex+Iron+Lycsine (Neurolem) Syr60ml,BT,58.75
+Rilem Pharma,Prescription,10008215,BComplex+Iron+Lycsine (Neurolem)Syr120ml,BT,105.00
+Rilem Pharma,Prescription,10008271,BComplex+Iron+Lycsine (Neurolem)Syr250ml,BT,165.00
+Rilem Pharma,Prescription,10008217,Bisacodyl (Prelax) 5mg Tab 100',BOX,68.90
+Rilem Pharma,Prescription,10008218,Calci Carbonate+VitD3  Tab 32',BOX,210.00
+Rilem Pharma,Prescription,10008289,Carbocisteine (Diacof) 100mg Syr 60ml,BT,15.00
+Rilem Pharma,Prescription,10008219,Carbocisteine (Diacof) 250mg Syr 60ml,BT,24.40
+Rilem Pharma,Prescription,10008220,Carbocisteine (Diacof) Drops 15ml,BT,13.65
+Rilem Pharma,Prescription,10008222,Cefalexin (Diacef) Cap 500mg 100',BOX,247.50
+Rilem Pharma,Prescription,10008223,Celecoxib (Emicox) 200mg Caps 100',BOX,306.90
+Rilem Pharma,Prescription,10008224,Celecoxib (Selecap) 400mg Cap 20',PAC,239.50
+Rilem Pharma,Prescription,10008225,Cetirizine (Allecur) 2.5mg Drops 10ml,BT,21.00
+Rilem Pharma,Prescription,10008226,Cetirizine (Dialix) Oral Solution 60ml,BT,42.65
+Rilem Pharma,Prescription,10008227,Chloramphenicol (Chlorolem) 500mg Cap 10,BOX,294.01
+Rilem Pharma,Prescription,10008228,Chloramphenicol (Chlorolem)125mgSusp60ml,BT,27.19
+Rilem Pharma,Prescription,10008229,Chlorphenamine (Riphen) 4mg Tab 100',BOX,27.00
+Rilem Pharma,Prescription,10008230,Clindamycin (Clingen) 300mg Cap 100',BOX,389.99
+Rilem Pharma,Prescription,10008231,Clopidogrel (Clopinova) 75mg Tab 100',BOX,330.85
+Rilem Pharma,Prescription,10008232,Cotrimoxazole (Diazole) 400mg Susp 60ml,BT,27.28
+Rilem Pharma,Prescription,10008233,Dexamethasone (Impodex) 500Mcg Tab 100',BOX,51.00
+Rilem Pharma,Prescription,10008234,Dextromethorphan (Mucolem) 10mg Syr 60ml,BT,19.80
+Rilem Pharma,Prescription,10008235,Dextromethorphan (Mucolem) 10mg Tab100,BOX,93.65
+Rilem Pharma,Prescription,10008236,Diphenhydramine (Diahist) 12.5mg Syr60ml,BT,13.00
+Rilem Pharma,Prescription,10008237,Doxycycline (Mydoxy) 100mg Cap 100',BOX,237.66
+Rilem Pharma,Prescription,10008239,Ferrous Sulfate (Ferolem) 75mg Drops 15m,BT,15.50
+Rilem Pharma,Prescription,10008238,Ferrous Sulfate (Ferolem) Syr 60ml,BT,20.00
+Rilem Pharma,Prescription,10008240,Folic Acid (Prevena) 5mg Cap 100',BOX,172.20
+Rilem Pharma,OTC,10008241,Furosemide (Diuretic) 20mg Tab 100',BOX,98.40
+Rilem Pharma,OTC,10008242,Gliclazide (Glycinorm) 80mg Tab 100',BOX,247.49
+Rilem Pharma,OTC,10008243,Glimepiride (Glimesaph) 2mg Tab 100',BOX,108.00
+Rilem Pharma,OTC,10008244,Guaifenesin (Ritusin) 100mg/5ml Syr 60ml,BT,16.00
+Rilem Pharma,OTC,10008245,Hyoscine (Gastrohex) 10mg Tab 100',BOX,450.00
+Rilem Pharma,OTC,10008246,Loperamide (Datab) Cap 2mg 100',BOX,54.00
+Rilem Pharma,OTC,10008247,Losartan (Natrazol) 50mg Tablet 100',BOX,198.00
+Rilem Pharma,OTC,10008248,Losartan +Hctz (Presartan) 50mg Tab 100',BOX,160.00
+Rilem Pharma,OTC,10008249,Methyldopa (BP Low) 250mg Tab 100',BOX,562.00
+Rilem Pharma,Generic,10008250,Metronidazole (Metrozole) 125mg Susp 60m,BT,16.23
+Rilem Pharma,Generic,10008252,Mupirocin (Murophar) 20mg Ointment 5g,PC,100.00
+Rilem Pharma,Generic,10008254,Para+Ppa+Cpm (Symeril) 325mg Tab 100',BOX,160.00
+Rilem Pharma,Generic,10008253,Para+Ppa+Cpm (Symeril) Syr 60ml,BT,33.60
+Rilem Pharma,Generic,10008267,Paracetamol (Alagesic) 125mg Susp 60ml,BT,15.90
+Rilem Pharma,Generic,10008255,Paracetamol (Alagesic) 250mg Susp 60ml,BT,27.72
+Rilem Pharma,Generic,10008256,Paracetamol (Alagesic) Drops 15ml,BT,20.50
+Rilem Pharma,Generic,10008257,Rifampicin (Rexilan) 450mg Cap 100',BOX,504.00
+Rilem Pharma,Generic,10008259,Salbu+Guai (Guiacof Plus) Syr 60ml,BT,14.10
+Rilem Pharma,OTC,10008260,Salbutamol (Albulem) Syr 60ml,BT,12.60
+Rilem Pharma,OTC,10008261,Salbutamol (Albulem) Tab 2mg 100',BOX,31.50
+Rilem Pharma,OTC,10008262,Sambong (Awanay Forte) 500mg Tab 100',BOX,448.80
+Rilem Pharma,OTC,10008263,Trimetazidine (Trimezar) 35mg Tab 30',BOX,500.96
+Rilem Pharma,OTC,10008264,VitaminBComplex(DiabeeForte)500mgCap100,BOX,352.00
+Steinbach Products Inc.,OTC,10004885,Amlodipine (Lodipen) 5mg 100',BOX,155.01
+Steinbach Products Inc.,OTC,10006471,Cefuroxime(Roxime 500) 500mg Tab 10',BOX,201.50
+Steinbach Products Inc.,OTC,10004600,Cimetidine (Zymet) 200mg Tab 100',BOX,51.75
+Steinbach Products Inc.,OTC,10004601,Cimetidine (Zymet) 400mg Tab 100',BOX,75.05
+Steinbach Products Inc.,OTC,10004125,Diclofenac(Boren)Tab 50mg,BOX,44.80
+Steinbach Products Inc.,OTC,10004569,Erythromycin (Tromxene) 250mg Tab 100',BOX,231.25
+Steinbach Products Inc.,OTC,10004480,Ibuprofen (Ibufen) 400mg Tab 100',BOX,110.88
+Steinbach Products Inc.,OTC,10006472,Levofloxacin (Baxiflor) 500mg Tab 40',BOX,540.00
+Steinbach Products Inc.,OTC,10004512,Losartan (Natrasol) 100mg Tab 100',BOX,396.00
+Steinbach Products Inc.,Generic,10003394,Losartan (Natrasol)Tab 50mg 100',BOX,198.00
+Steinbach Products Inc.,Generic,10004456,Metformin (Formet) 500mg Tab 100',BOX,68.00
+Steinbach Products Inc.,Generic,10003363,Metoprolol(Prolol)Tab 100mg 100',BOX,160.00
+Steinbach Products Inc.,Generic,10004405,Nifedipine (Calcigard) 10mg Cap 100',BOX,243.75
+Steinbach Products Inc.,Prescription,10004406,Nifedipine (Calcigard) 5mg Cap 100',BOX,175.00
+Steinbach Products Inc.,Prescription,10006473,Norfloxacin (Urinix 400) 400mg Tab 100',BOX,157.08
+Steinbach Products Inc.,Prescription,10004573,Norfloxacin (Urinox) 400mg Tab 100',BOX,157.08
+Steinbach Products Inc.,Prescription,10004455,Ofloxacin (Floxa) 400mg Tab 100',BOX,325.00
+Steinbach Products Inc.,Prescription,10004520,Propranolol (Oranol) 10mg Tab 100',BOX,71.25
+Steinbach Products Inc.,Prescription,10004521,Propranolol (Oranol) 40mg Tab 100',BOX,100.00
+Steinbach Products Inc.,Prescription,10004533,Ranitidine (Ranitein) 150mg Tab 100',BOX,75.35
+Steinbach Products Inc.,Prescription,10005184,SildenafilCitrate(Spiagra)100mg Tab 10',BOX,205.00
