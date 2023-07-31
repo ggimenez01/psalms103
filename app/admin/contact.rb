@@ -1,3 +1,4 @@
+# app/admin/contact.rb
 ActiveAdmin.register Contact do
   permit_params :title, :address, :telephone_number, :email, :website
 
