@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+$size-base: 50px;    // use of variables
+
+%size-properties {
+  width: $size-base;
+  height: $size-base;
+}
+
+.logo-img {
+  @extend %size-properties; // inheritance
+  width: $size-base * 3; // using multiplication operator
+}
+
+.img-thumbnail {    
+  @extend %size-properties;
+  max-width: $size-base * 2; // using multiplication operator  
+  max-height: $size-base * 2; // using multiplication operator
+
+  // nesting img tag inside the img-thumbnail
+  img {
+    border-radius: $size-base / 5; // using division operator
+  }
+}
+=======
+/* app/assets/stylesheets/application.scss */
+
+@import 'custom';
+@import 'ckeditor/contents.css';
+.quantity-input {
+    width: 60px; /* You can adjust the width as needed */
+    text-align: center;
+  }
+>>>>>>> 3b64b9dd9150b006b7b2651e2644892e4e29d7c3

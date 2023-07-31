@@ -1,0 +1,49 @@
+<!-- app/views/categories/index.html.erb -->
+<h1>Categories</h1>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <%= link_to "OTC", otc_categories_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+    <%= link_to "Prescription", prescription_categories_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+    <%= link_to "Branded", branded_categories_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+    <%= link_to "Generic", generic_categories_path, class: "nav-link" %>
+  </li>
+</ul>
+
+
+<h1>Products</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td>
+          <% if product.image.present? %>
+            <%= image_tag product.image.url, class: "img-thumbnail" %>
+          <% else %>
+            <p>Image Not Available</p>
+          <% end %>
+        </td>
+        <td><%= link_to product.name, product_path(product) %></td>
+        <td><%= number_to_currency(product.price) %></td>
+        <td><%= product.category.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= paginate @products %>

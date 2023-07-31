@@ -1,0 +1,31 @@
+<!-- app/views/drugs/best_selling.html.erb -->
+<h1>Best Selling Drugs</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Drugs</th>
+      <th>Main Indication</th>
+      <th>Trade Name</th>
+      <th>Sales 2018</th>
+      <th>Sales 2017</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <% @data.each do |entry| %>
+      <tr>
+        <td><%= entry[:rank] %></td>
+        <td><%= entry[:brand_name] %></td>
+        <td><%= entry[:generic_name] %></td>
+        <td><%= entry[:sales_q1_2014] %></td>
+        <td><%= entry[:change_from_q4_2013] %></td>
+        <td><%= entry[:companies] %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>

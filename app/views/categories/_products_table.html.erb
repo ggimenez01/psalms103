@@ -1,0 +1,29 @@
+<!-- app/views/categories/_products_table.html.erb -->
+<% if products.present? %>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% products.each do |product| %>
+        <tr>
+          <td>
+            <% if product.image.present? %>
+              <%= image_tag product.image.url, class: "img-thumbnail" %>
+            <% else %>
+              <p>Image Not Available</p>
+            <% end %>
+          </td>
+          <td><%= link_to product.name, product_path(product) %></td>
+          <td><%= number_to_currency(product.price) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>No products found for <%= @category.capitalize %>.</p>
+<% end %>

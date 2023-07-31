@@ -1,0 +1,40 @@
+<h2>Order Confirmation</h2>
+
+<p><strong>Name:</strong> <%= @order.name %></p>
+<p><strong>Address:</strong> <%= @order.address %></p>
+<p><strong>Email:</strong> <%= @order.email %></p>
+<p><strong>Province:</strong> <%= Province.find(@order.province_id).name %></p>
+
+<!-- Display the items in the order -->
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @order.order_items.each do |item| %>
+      <tr>
+        <td><%= image_tag(item.product.image.url(:thumb)) %></td>
+        <td><%= item.product.name %></td>
+        <td><%= number_to_currency(item.price) %></td>
+        <td><%= item.quantity %></td>
+        <td><%= number_to_currency(item.price * item.quantity) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<!-- Display other details as needed -->
+<h2>Taxes:</h2>
+<p>HST: <%= number_to_currency(@order.hst || 0) %></p>
+<p>GST: <%= number_to_currency(@order.gst || 0) %></p>
+<p>PST: <%= number_to_currency(@order.pst || 0) %></p>
+
+<h2>Your Total Bill:</h2>
+<p>Subtotal Before Tax: <%= number_to_currency(@order.total) %></p>
+<p><strong>Grand Total: <%= number_to_currency(@order.total + (@order.hst || 0) + (@order.gst || 0) + (@order.pst || 0)) %></strong></p>

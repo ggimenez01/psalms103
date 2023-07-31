@@ -1,0 +1,14 @@
+/* app/assets/stylesheets/custom.css */
+
+<<<<<<< HEAD
+/* Customize the size of the thumbnail */
+.img-thumbnail {
+    max-width: 100px; /* Adjust this value to your desired width */
+    max-height: 100px; /* Adjust this value to your desired height */
+=======
+/* Reduce the width of the quantity input */
+.quantity-input {
+    width: 200px; /* Adjust this value as needed */
+>>>>>>> 3b64b9dd9150b006b7b2651e2644892e4e29d7c3
+  }
+  

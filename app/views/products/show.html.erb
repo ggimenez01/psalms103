@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+<!-- app/views/products/show.html.erb -->
+
+<h1><%= @product.name %></h1>
+<% if @product.image.present? %>
+  <%= image_tag @product.image.url %>
+<% else %>
+  <p>Image Not Available</p>
+<% end %>
+<p><strong>Price:</strong> <%= number_to_currency(@product.price) %></p>
+<p><strong>UOM:</strong> <%= @product.uom %></p>
+<p><strong>Supplier:</strong> <%= @product.supplier.name %></p>
+<p><strong>Category:</strong> <%= @product.category.name %></p> <!-- Display the category name -->
+<p><strong>Created At:</strong> <%= @product.created_at %></p>
+<p><strong>Updated At:</strong> <%= @product.updated_at %></p>
+=======
+<h1>Product Details</h1>
+<h2><%= @product.name %></h2>
+<p><strong>Description:</strong> <%= @product.description %></p>
+<p><strong>Price:</strong> <%= @product.price %></p>
+<p><strong>Category:</strong> <%= @product.category.name %></p>
+<p><strong>UOM:</strong> <%= @product.uom %></p>
+
+<%= link_to 'Back to Products', front_page_index_path %>
+>>>>>>> 3b64b9dd9150b006b7b2651e2644892e4e29d7c3

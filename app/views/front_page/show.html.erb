@@ -1,0 +1,14 @@
+<h1>Product Details</h1>
+<h2><%= @product.name %></h2>
+
+<% if @product.image_url.present? %>
+  <%= image_tag @product.image_url %>
+<% else %>
+  <p>No image available</p>
+<% end %>
+
+<p><strong>Description:</strong> <%= @product.description %></p>
+<p><strong>Price:</strong> <%= @product.price %></p>
+<p><strong>Category:</strong> <%= @product.category.name %></p>
+<p><strong>UOM:</strong> <%= @product.uom %></p>
+<p><%= link_to 'Back to Products', front_page_path %></p>

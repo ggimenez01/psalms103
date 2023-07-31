@@ -1,0 +1,95 @@
+<h1>Your Cart</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @cart_items.each do |cart_item| %>
+      <tr>
+        <td>
+          <% if cart_item.product.image.present? %>
+            <%= link_to image_tag(cart_item.product.image.url, height: "50"), cart_item.product.image.url %>
+          <% else %>
+            <span>No image</span>
+          <% end %>
+        </td>
+        <td><%= cart_item.product.name %></td>
+        <td><%= cart_item.product.price %></td>
+        <td>
+          <%= form_tag(update_cart_item_path, method: :put) do %>
+            <%= hidden_field_tag :cart_item_id, cart_item.id %>
+            <%= number_field_tag :quantity, cart_item.quantity, min: 1, class: 'quantity-input form-control', inputmode: 'numeric' %>
+            <button type="button" class="quantity-adjust btn btn-sm btn-secondary" data-action="increase">+</button>
+            <button type="button" class="quantity-adjust btn btn-sm btn-secondary" data-action="decrease">-</button>
+          <% end %>
+        </td>
+        <td class="item-total"><%= cart_item.total_price %></td>
+        <td>
+          <%= form_tag(remove_from_cart_path, method: :delete) do %>
+            <%= hidden_field_tag :cart_item_id, cart_item.id %>
+            <%= submit_tag 'Remove', class: 'btn btn-sm btn-danger' %>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="cart-total">
+  <strong>Total:</strong> <%= number_to_currency(@total_cart_price) %>
+</div>
+
+<%= link_to 'Continue Shopping', front_page_path, class: 'btn btn-secondary' %>
+<% if logged_in? %>
+ <%= link_to 'Continue to Checkout', front_page_checkout_path, class: 'btn btn-primary' %>
+
+<% else %>
+  <%= link_to 'Continue as Guest User', checkout_show_path, class: 'btn btn-primary' %>
+
+  <%= link_to 'Login or Sign Up', new_user_session_path(redirect_to: checkout_url), class: 'btn btn-secondary' %>
+<% end %>
+
+<script>
+  document.querySelectorAll('.quantity-adjust').forEach(button => {
+    button.addEventListener('click', function () {
+      const quantityInput = this.closest('form').querySelector('.quantity-input');
+      const currentQuantity = parseInt(quantityInput.value);
+      const action = this.dataset.action;
+      if (action === 'increase') {
+        quantityInput.value = currentQuantity + 1;
+      } else if (action === 'decrease' && currentQuantity > 1) {
+        quantityInput.value = currentQuantity - 1;
+      }
+
+      // Trigger the form submission to update the cart item
+      this.closest('form').submit();
+
+      // Update the total immediately after changing the quantity
+      updateTotal();
+    });
+  });
+
+  const quantityInputs = document.querySelectorAll('.quantity-input');
+
+  quantityInputs.forEach(input => {
+    const updateTotal = () => {
+      const cartItemRow = input.closest('tr');
+      const priceElement = cartItemRow.querySelector('td:nth-child(3)');
+      const quantity = parseInt(input.value);
+      const price = parseFloat(priceElement.innerText);
+      const total = (quantity * price).toFixed(2);
+      cartItemRow.querySelector('.item-total').innerText = total;
+    };
+
+    input.addEventListener('change', updateTotal);
+    input.addEventListener('input', updateTotal);
+  });
+</script>

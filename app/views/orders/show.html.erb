@@ -1,0 +1,35 @@
+<!-- app/views/orders/show.html.erb -->
+
+<h2>Order Confirmation</h2>
+
+<p><strong>Name:</strong> <%= @order.name %></p>
+<p><strong>Address:</strong> <%= @order.address %></p>
+<p><strong>Email:</strong> <%= @order.email %></p>
+<p><strong>Province:</strong> <%= Province.find(@order.province_id).name %></p>
+
+<!-- Display other details as needed -->
+
+<h2>Your Shopping Cart:</h2>
+<table>
+  <!-- ... Table header ... -->
+  <tbody>
+    <% @order.order_items.each do |order_item| %>
+      <tr>
+        <td><%= image_tag(order_item.product.image.url(:thumb)) %></td>
+        <td><%= order_item.product.name %></td>
+        <td><%= number_to_currency(order_item.price) %></td>
+        <td><%= order_item.quantity %></td>
+        <td><%= number_to_currency(order_item.subtotal) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="mt-4">
+  <h2>Your Total Bill:</h2>
+  <p>Subtotal Before Tax: <%= number_to_currency(@order.total) %></p>
+  <p>HST: <%= number_to_currency(@order.hst) %></p>
+  <p>GST: <%= number_to_currency(@order.gst) %></p>
+  <p>PST: <%= number_to_currency(@order.pst) %></p>
+  <p><strong>Grand Total: <%= number_to_currency(@order.grand_total) %></strong></p>
+</div>

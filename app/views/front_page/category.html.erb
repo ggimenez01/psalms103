@@ -1,0 +1,35 @@
+<h1>Welcome to Psalms 103 Pharmacy Online</h1>
+<h2>Category: <%= @category.name %></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td>
+          <% if product.image.present? %>
+            <%= link_to image_tag(product.image.url, height: "150"), product.image.url %>
+          <% else %>
+            <span>No image</span>
+          <% end %>
+        </td>
+        <td><%= product.name %></td>
+        <td><%= product.description %></td>
+        <td><%= product.price %></td>
+        <td><%= product.category.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= paginate @products %>
+<p><%= link_to 'Back to Products', front_page_products_path %></p>
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Psalms 103 Pharmacy Online</title>
+  <!-- Add the Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Psalms 103 Pharmacy Online</h1>
+    <h2>Guest User Confirmation</h2>
+
+    <h3>Shipping Address:</h3>
+    <table class="table table-bordered">
+      <tr>
+        <td>Name:</td>
+        <td><%= @user_address.name %></td>
+      </tr>
+      <tr>
+        <td>Address Line 1:</td>
+        <td><%= @user_address.address_line_1 %></td>
+      </tr>
+      <tr>
+        <td>Address Line 2:</td>
+        <td><%= @user_address.address_line_2 %></td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td><%= @user_address.city %></td>
+      </tr>
+      <tr>
+        <td>Province:</td>
+        <td><%= @user_address.province %></td>
+      </tr>
+      <tr>
+        <td>Postal Code:</td>
+        <td><%= @user_address.postal_code %></td>
+      </tr>
+    </table>
+
+    <h3>Cart Items:</h3>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @cart_items.each do |cart_item| %>
+          <tr>
+            <td><%= image_tag cart_item.product.image_url %></td>
+            <td><%= cart_item.product.name %></td>
+            <td><%= number_to_currency(cart_item.product.price) %></td>
+            <td><%= cart_item.quantity %></td>
+            <td><%= number_to_currency(cart_item.total_price) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4"></td>
+          <td class="item-total"><strong>Total Before Tax:</strong></td>
+          <td><strong><%= number_to_currency(@subtotal) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+          <td class="gst-amount"><strong>GST:</strong></td>
+          <td id="gst-amount-cell"><strong><%= number_to_currency(@gst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+          <td class="pst-amount"><strong>PST:</strong></td>
+          <td id="pst-amount-cell"><strong><%= number_to_currency(@pst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+          <td class="hst-amount"><strong>HST:</strong></td>
+          <td id="hst-amount-cell"><strong><%= number_to_currency(@hst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+          <td class="item-total"><strong>Grand Total:</strong></td>
+          <td id="grand-total-cell"><strong><%= number_to_currency(@grand_total) %></strong></td>
+        </tr>
+      </tfoot>
+    </table>
+   <!-- app/views/user_addresses/confirmation_guest.html.erb -->
+
+<form action="<%= confirm_order_path %>" method="post">
+  <%= csrf_meta_tags %>
+  <%= hidden_field_tag 'cart_item_ids[]', @cart_items.pluck(:id) %>
+  <%= hidden_field_tag 'user_address_params[name]', @user_address.name %>
+  <%= hidden_field_tag 'user_address_params[address_line_1]', @user_address.address_line_1 %>
+  <%= hidden_field_tag 'user_address_params[address_line_2]', @user_address.address_line_2 %>
+  <%= hidden_field_tag 'user_address_params[city]', @user_address.city %>
+  <%= hidden_field_tag 'user_address_params[province]', @user_address.province %>
+  <%= hidden_field_tag 'user_address_params[postal_code]', @user_address.postal_code %>
+  <%= button_to "Place Order", confirm_order_path, method: :post, class: 'btn btn-primary' %>
+</form>
+
+  </div>
+
+  <!-- Add the Bootstrap JavaScript link (if needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

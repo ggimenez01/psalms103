@@ -1,0 +1,120 @@
+<!-- views\checkout\confirmation\show.html.erb -->
+<h1>Order Confirmation</h1>
+<p>Order Number: <%= @order.order_number %></p>
+
+<h2>Order Details</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @cart_items.each do |cart_item| %>
+      <tr>
+        <td>
+          <% if cart_item.product.image.present? %>
+            <%= link_to image_tag(cart_item.product.image.url, height: "50"), cart_item.product.image.url %>
+          <% else %>
+            <span>No image</span>
+          <% end %>
+        </td>
+        <td><%= cart_item.product.name %></td>
+        
+        <td><%= number_to_currency(cart_item.product.price) %></td>
+        <td>
+          <span class="quantity-label"><%= cart_item.quantity %></span>
+        </td>
+        <td class="item-total"><%= number_to_currency(cart_item.total_price) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3"></td>
+      <td class="item-total"><strong>Total Before Tax:</strong></td>
+      <td><strong><%= number_to_currency(@cart_items.sum { |item| item.total_price }) %></strong></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td class="gst-amount"><strong>GST:</strong></td>
+      <td id="gst-amount-cell"><strong><%= number_to_currency(@gst_amount) %></strong></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td class="pst-amount"><strong>PST:</strong></td>
+      <td id="pst-amount-cell"><strong><%= number_to_currency(@pst_amount) %></strong></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td class="hst-amount"><strong>HST:</strong></td>
+      <td id="hst-amount-cell"><strong><%= number_to_currency(@hst_amount) %></strong></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td class="item-total"><strong>Grand Total:</strong></td>
+      <td id="grand-total-cell"><strong><%= number_to_currency(@grand_total) %></strong></td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+<h2>Shipping Address</h2>
+<p>Address Line 1: <%= @user_address.address_line_1 %></p>
+<p>Address Line 2: <%= @user_address.address_line_2 %></p>
+<p>City: <%= @user_address.city %></p>
+<p>Province: <%= @user_address.province %></p>
+<p>Postal Code: <%= @user_address.postal_code %></p>
+
+
+<script>
+  function updateValues() {
+    const selectedProvince = document.getElementById('province-select').value;
+    const taxRates = <%= @provinces_options.to_json.html_safe %>;
+    const provinceTaxRates = taxRates[selectedProvince];
+    const gstRate = provinceTaxRates['gst'] || 0;
+    const pstRate = provinceTaxRates['pst'] || 0;
+    const hstRate = provinceTaxRates['hst'] || 0;
+
+    let totalCartPrice = 0;
+
+    const quantityLabels = document.querySelectorAll('.quantity-label');
+    quantityLabels.forEach(label => {
+      const cartItemRow = label.closest('tr');
+      const priceElement = cartItemRow.querySelector('td:nth-child(3)');
+      const quantity = parseInt(label.innerText);
+      const price = parseFloat(priceElement.innerText.replace(/[^0-9.-]+/g, '')); // Remove non-numeric characters
+      const total = (quantity * price).toFixed(2);
+      cartItemRow.querySelector('.item-total').innerText = '$' + total; // Add the currency symbol
+
+      totalCartPrice += parseFloat(total);
+    });
+
+    const gstAmount = totalCartPrice * gstRate;
+    const pstAmount = totalCartPrice * pstRate;
+    const hstAmount = totalCartPrice * hstRate;
+    const grandTotal = totalCartPrice + gstAmount + pstAmount + hstAmount;
+
+    document.getElementById('gst-amount-cell').innerText = '$' + gstAmount.toFixed(2);
+    document.getElementById('pst-amount-cell').innerText = '$' + pstAmount.toFixed(2);
+    document.getElementById('hst-amount-cell').innerText = '$' + hstAmount.toFixed(2);
+    document.getElementById('grand-total-cell').innerText = '$' + grandTotal.toFixed(2);
+  }
+
+  function initializeCheckout() {
+    document.getElementById('province-select').addEventListener('change', updateValues);
+    updateValues(); // Call the function initially to populate values on page load
+  }
+
+  // Call the initializeCheckout function when the DOM is loaded
+  document.addEventListener('DOMContentLoaded', initializeCheckout);
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,0 +1,189 @@
+<div class="container mt-4">
+  <h1>Your Shopping Cart:</h1>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% total_price = 0 %>
+      <% @products_in_cart.each do |product| %>
+        <tr>
+          <td>
+            <% if product.image.present? %>
+              <%= image_tag product.image.url, class: "img-thumbnail" %>
+            <% else %>
+              <p>Image Not Available</p>
+            <% end %>
+          </td>
+          <td><%= link_to product.name, product_path(product) %></td>
+          <td class="product-price"><%= number_to_currency(product.price) %></td>
+          <td>
+            <%= form_tag update_cart_products_path, method: :put, class: "form-inline update-quantity-form" do %>
+              <%= hidden_field_tag "product_id", product.id %>
+              <%= number_field_tag "quantity", product.quantity_in_cart, min: 1, class: "form-control mr-2 quantity-input" %>
+            <% end %>
+          </td>
+          <td class="subtotal-cell"><%= number_to_currency(product.price * product.quantity_in_cart) %></td>
+
+          <td>
+            <%= link_to "Remove", remove_item_products_path(product_id: product.id), method: :delete, class: "btn btn-danger", data: { confirm: "Are you sure you want to remove this item from the cart?" } %>
+          </td>
+        </tr>
+        <% total_price += (product.price * product.quantity_in_cart) %>
+      <% end %>
+    </tbody>
+  </table>
+
+
+<div class="mt-4">
+  <h1>Your Total Bill:</h1>
+  <p><strong>Subtotal Before Tax: <span class="total-price"><%= number_to_currency(total_price) %></span></strong></p>
+  <p>HST: <span class="hst-price">$0.00</span></p>
+  <p>GST: <span class="gst-price">$0.00</span></p>
+  <p>PST: <span class="pst-price">$0.00</span></p>
+  <p><strong>Grand Total: <span class="grand-total-price">$0.00</span></strong></p>
+</div>
+
+<div class="customer-details">
+  <h2>Customer Details</h2>
+  
+ <%= form_with(model: @order, url: orders_path, local: true) do |form| %>
+  <div class="form-group">
+    <%= form.label :name %>
+    <%= form.text_field :name, name: 'order[name]', class: "form-control", required: true %>
+  </div>
+  
+  <div class="form-group">
+    <%= form.label :address %>
+    <%= form.text_field :address, name: 'order[address]', class: "form-control", required: true %>
+  </div>
+  
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.email_field :email, name: 'order[email]', class: "form-control", required: true %>
+  </div>
+  
+  <div class="form-group">
+    <%= form.label :province_id %>
+    <%= form.select :province_id, Province.all.map { |province| [province.name, province.id] }, { include_blank: true }, { name: 'order[province_id]', class: "form-control", required: true, id: "province_id" } %>
+  </div>
+
+  <%= form.submit "Proceed to Checkout", class: 'button-class' %>
+<% end %>
+
+
+</div>
+
+
+
+<%= link_to 'Continue Shopping', products_path, class: 'btn btn-secondary' %>
+
+
+<button onclick="window.print()" class="btn btn-info">Print Your Order to PDF</button>
+
+<script>
+$(document).ready(function() {
+  var taxRates = {
+    'Alberta': { 'gst': 0.05, 'pst': 0.00, 'hst': 0.00 },
+    'British Columbia': { 'gst': 0.05, 'pst': 0.07, 'hst': 0.00 },
+    'Manitoba': { 'gst': 0.05, 'pst': 0.08, 'hst': 0.00 },
+    'New Brunswick': { 'gst': 0.00, 'pst': 0.00, 'hst': 0.15 },
+    'Newfoundland and Labrador': { 'gst': 0.00, 'pst': 0.00, 'hst': 0.15 },
+    'Northwest Territories': { 'gst': 0.05, 'pst': 0.00, 'hst': 0.00 },
+    'Nova Scotia': { 'gst': 0.00, 'pst': 0.00, 'hst': 0.15 },
+    'Nunavut': { 'gst': 0.05, 'pst': 0.00, 'hst': 0.00 },
+    'Ontario': { 'gst': 0.00, 'pst': 0.00, 'hst': 0.13 },
+    'Prince Edward Island': { 'gst': 0.00, 'pst': 0.00, 'hst': 0.15 },
+    'Quebec': { 'gst': 0.05, 'pst': 0.09, 'hst': 0.00 },
+    'Saskatchewan': { 'gst': 0.05, 'pst': 0.06, 'hst': 0.00 },
+    'Yukon': { 'gst': 0.05, 'pst': 0.00, 'hst': 0.00 },
+  };
+
+  // Bind the updateTotals function to input event for quantity input
+  $(".quantity-input").on("input", updateTotals);
+
+  // Bind the updateTotals function to change event for province dropdown
+  $("#province_id").on("change", updateTotals);
+
+  function updateTotals(event) {
+    event.preventDefault();
+
+    var quantity = $(this).val();
+    var price = parseFloat($(this).closest('tr').find('.product-price').text().substring(1));
+    var subtotal = quantity * price;
+    var product_id = $(this).closest('tr').find('input[name="product_id"]').val();
+    $(this).closest('tr').find('.subtotal-cell').text('$' + subtotal.toFixed(2));
+
+    // Calculate the updated subtotal and total prices
+    var total = 0;
+    $('.subtotal-cell').each(function() {
+      var quantity = $(this).closest('tr').find('.quantity-input').val();
+      var price = parseFloat($(this).closest('tr').find('.product-price').text().substring(1));
+      var subtotal = quantity * price;
+      $(this).text('$' + subtotal.toFixed(2));
+      total += subtotal;
+    });
+
+    $('.total-price').text('$' + total.toFixed(2));
+
+    // Get the selected province and its tax rates
+    var province = $('#province_id').find(":selected").text();
+    var provinceTaxes = taxRates[province];
+    var gst = total * provinceTaxes['gst'];
+    var pst = total * provinceTaxes['pst'];
+    var hst = total * provinceTaxes['hst'];
+    var grandTotal = total + gst + pst + hst;
+
+    // Update the tax values in the UI
+    $('.gst-price').text('$' + gst.toFixed(2));
+    $('.pst-price').text('$' + pst.toFixed(2));
+    $('.hst-price').text('$' + hst.toFixed(2));
+    $('.grand-total-price').text('$' + grandTotal.toFixed(2));
+  }
+
+     // Handle item removal from the cart
+    $(".btn-danger").click(function(e) {
+      e.preventDefault();
+
+      var product_id = $(this).closest('tr').find('input[name="product_id"]').val();
+
+      $.ajax({
+        url: '/products/remove_item',
+        type: 'DELETE',
+        data: { product_id: product_id },
+        success: function(data) {
+          location.reload();
+        },
+        error: function(error) {
+          console.error(error);
+        },
+      });
+    });
+
+    // Add the function for printing the page to PDF
+    function printPage() {
+      var originalContent = document.body.innerHTML; // save the original content of the body
+      var printButton = document.querySelector('button'); // assuming the only button on the page is the print button
+      printButton.style.display = 'none'; // hide the print button
+      var printContent = document.body.innerHTML; // get the content of the body without the print button
+      printJS({printable: printContent, type:'raw-html', showModal:true});
+      document.body.innerHTML = originalContent; // restore the original content
+    }
+
+    // Bind the printPage function to the click event of the print button
+    $("button.btn-info").on("click", function() {
+      printPage();
+    });
+
+    // Call the updateTotals function on page load to set the initial tax values
+    updateTotals();
+  });
+</script>

@@ -1,0 +1,2 @@
+class ProvinceTaxRate < ApplicationRecord
+end

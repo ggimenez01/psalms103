@@ -1,0 +1,32 @@
+// app/views/carts/update_tax.js.erb
+
+$(document).ready(function() {
+  var total = 0;
+  $('.subtotal-cell').each(function() {
+    var quantity = $(this).closest('tr').find('.quantity-input').val();
+    var price = parseFloat($(this).closest('tr').find('.product-price').text().substring(1));
+    var subtotal = quantity * price;
+    $(this).text('$' + subtotal.toFixed(2));
+    total += subtotal;
+  });
+
+  $('.total-price').text('$' + total.toFixed(2));
+
+  var province = $('#customer_province_id').val();
+  var taxRates = {
+    'Alberta': { 'gst': 0.05, 'pst': 0.00, 'hst': 0.00 },
+    'British Columbia': { 'gst': 0.05, 'pst': 0.07, 'hst': 0.00 },
+    // Add other provinces' tax rates here
+  };
+
+  var provinceTaxes = taxRates[province];
+  var gst = total * provinceTaxes['gst'];
+  var pst = total * provinceTaxes['pst'];
+  var hst = total * provinceTaxes['hst'];
+  var grandTotal = total + gst + pst + hst;
+
+  $('.gst-price').text('$' + gst.toFixed(2));
+  $('.pst-price').text('$' + pst.toFixed(2));
+  $('.hst-price').text('$' + hst.toFixed(2));
+  $('.grand-total-price').text('$' + grandTotal.toFixed(2));
+});

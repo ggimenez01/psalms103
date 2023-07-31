@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Psalms 103 Pharmacy Online</title>
+  <!-- Add the Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Check Out:</h1>
+
+    <h2>Fill In Your Information:</h2>
+    <%= form_for @user_address, url: (@user_address.new_record? ? user_addresses_path : user_address_path(@user_address)), method: (@user_address.new_record? ? :post : :patch) do |f| %>
+      <!-- Your form fields for the user's shipping address -->
+      <div class="form-group">
+        <%= f.label :name %>
+        <%= f.text_field :name, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :address_line_1 %>
+        <%= f.text_field :address_line_1, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :address_line_2 %>
+        <%= f.text_field :address_line_2, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :city %>
+        <%= f.text_field :city, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :province %>
+        <%= f.select :province, @provinces_options.keys, {}, { class: 'form-control', id: 'province-select' } %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :postal_code %>
+        <%= f.text_field :postal_code, class: 'form-control' %>
+      </div>
+
+      <%= f.hidden_field :id %>
+
+      <!-- Hidden fields to store tax and total price values -->
+      <%= hidden_field_tag :province_tax, @province_tax %>
+      <%= hidden_field_tag :total_cart_price, @total_cart_price %>
+
+      <!-- Loop through the cart items and store their IDs in hidden fields -->
+      <% @cart_items.each do |cart_item| %>
+        <%= hidden_field_tag "cart_item_ids[]", cart_item.id %>
+      <% end %>
+
+      <!-- Add a submit button to update the address and order -->
+      <div class="form-group">
+        <%= f.submit 'Update Address and Place Order', class: 'btn btn-primary' %>
+      </div>
+    <% end %>
+
+    <br>
+    <h2>Purchases:</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @cart_items.each do |cart_item| %>
+          <tr>
+            <td>
+              <% if cart_item.product.image.present? %>
+                <%= link_to image_tag(cart_item.product.image.url, height: "50"), cart_item.product.image.url %>
+              <% else %>
+                <span>No image</span>
+              <% end %>
+            </td>
+            <td><%= cart_item.product.name %></td>
+            <td><%= number_to_currency(cart_item.product.price) %></td>
+            <td>
+              <div class="quantity-input">
+                <span class="quantity-label"><%= cart_item.quantity %></span>
+              </div>
+            </td>
+            <td class="item-total"><%= number_to_currency(cart_item.total_price) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"></td>
+          <td class="item-total"><strong>Total Before Tax:</strong></td>
+          <td><strong><%= number_to_currency(@cart_items.sum { |item| item.total_price }) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td class="gst-amount"><strong>GST:</strong></td>
+          <td id="gst-amount-cell"><strong><%= number_to_currency(@gst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td class="pst-amount"><strong>PST:</strong></td>
+          <td id="pst-amount-cell"><strong><%= number_to_currency(@pst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td class="hst-amount"><strong>HST:</strong></td>
+          <td id="hst-amount-cell"><strong><%= number_to_currency(@hst_amount) %></strong></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td class="item-total"><strong>Grand Total:</strong></td>
+          <td id="grand-total-cell"><strong><%= number_to_currency(@grand_total) %></strong></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <%= link_to 'Continue Shopping', front_page_path, class: 'btn btn-secondary' %>
+
+    <% if logged_in? %>
+      <%= link_to 'Continue to Checkout', checkout_url, class: 'btn btn-primary' %>
+    <% else %>
+     
+      <%= link_to 'Login or Sign Up', new_user_session_path(redirect_to: checkout_url), class: 'btn btn-secondary' %>
+    <% end %>
+  </div>
+
+  <script>
+    function updateValues() {
+      const selectedProvince = document.getElementById('province-select').value;
+      const taxRates = <%= @provinces_options.to_json.html_safe %>;
+      const provinceTaxRates = taxRates[selectedProvince];
+      const gstRate = provinceTaxRates['gst'] || 0;
+      const pstRate = provinceTaxRates['pst'] || 0;
+      const hstRate = provinceTaxRates['hst'] || 0;
+
+      let totalCartPrice = 0;
+
+      const quantityLabels = document.querySelectorAll('.quantity-label');
+      quantityLabels.forEach(label => {
+        const cartItemRow = label.closest('tr');
+        const priceElement = cartItemRow.querySelector('td:nth-child(3)');
+        const quantity = parseInt(label.innerText);
+        const price = parseFloat(priceElement.innerText.replace(/[^0-9.-]+/g, '')); // Remove non-numeric characters
+        const total = (quantity * price).toFixed(2);
+        cartItemRow.querySelector('.item-total').innerText = '$' + total; // Add the currency symbol
+
+        totalCartPrice += parseFloat(total);
+      });
+
+      const gstAmount = totalCartPrice * gstRate;
+      const pstAmount = totalCartPrice * pstRate;
+      const hstAmount = totalCartPrice * hstRate;
+      const grandTotal = totalCartPrice + gstAmount + pstAmount + hstAmount;
+
+      document.getElementById('gst-amount-cell').innerText = '$' + gstAmount.toFixed(2);
+      document.getElementById('pst-amount-cell').innerText = '$' + pstAmount.toFixed(2);
+      document.getElementById('hst-amount-cell').innerText = '$' + hstAmount.toFixed(2);
+      document.getElementById('grand-total-cell').innerText = '$' + grandTotal.toFixed(2);
+    }
+
+    function initializeCheckout() {
+      document.getElementById('province-select').addEventListener('change', updateValues);
+      updateValues(); // Call the function initially to populate values on page load
+    }
+
+    // Call the initializeCheckout function when the DOM is loaded
+    document.addEventListener('DOMContentLoaded', initializeCheckout);
+  </script>
+
+  <!-- Add the Bootstrap JavaScript link -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

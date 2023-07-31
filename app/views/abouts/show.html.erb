@@ -1,0 +1,23 @@
+<style>
+  .about-us p {
+    margin-bottom: 20px;
+  }
+</style>
+
+<div class="about-us">
+  <h1>About Us</h1>
+  <% if @about.present? %>
+    <h2><%= @about.title %></h2>
+    <div class="content">
+      <% @about.content.split(/[\r\n]+/).each do |paragraph| %>
+        <% if paragraph.present? %>
+          <p><%= sanitize(paragraph) %></p>
+        <% end %>
+      <% end %>
+    </div>
+    <%= link_to 'Back to Product Listing', front_page_path %>
+  <% else %>
+    <p>No information available.</p>
+  <% end %>
+</div>
+

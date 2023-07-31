@@ -1,0 +1,19 @@
+// app/views/carts/update.js.erb
+
+$('.subtotal-cell').each(function() {
+  var quantity = $(this).closest('tr').find('.quantity-input').val();
+  var price = parseFloat($(this).closest('tr').find('.product-price').text().substring(1));
+  var subtotal = quantity * price;
+  $(this).text('$' + subtotal.toFixed(2));
+});
+
+var total = 0;
+$('.subtotal-cell').each(function() {
+  total += parseFloat($(this).text().substring(1));
+});
+$('.total-price').text('$' + total.toFixed(2));
+
+$('.gst-price').text('$' + <%= session[:cart_tax][:gst].to_f.round(2) %>);
+$('.pst-price').text('$' + <%= session[:cart_tax][:pst].to_f.round(2) %>);
+$('.hst-price').text('$' + <%= session[:cart_tax][:hst].to_f.round(2) %>);
+$('.grand-total-price').text('$' + <%= session[:cart_tax][:grand_total].to_f.round(2) %>);

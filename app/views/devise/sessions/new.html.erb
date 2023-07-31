@@ -1,0 +1,55 @@
+<div class="login-form-container">
+  <style>
+    .login-form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-form-box {
+      max-width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      margin: auto;
+    }
+
+    .form-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+  </style>
+
+  <div class="login-form-box">
+    <h2 class="card-title">Log in</h2>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: 'row g-3' }) do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="col-12">
+        <%= f.label :email, class: 'form-label' %>
+        <%= f.email_field :email, autofocus: true, placeholder: 'Email', class: 'form-control' %>
+      </div>
+
+      <div class="col-12">
+        <%= f.label :password, class: 'form-label' %>
+        <%= f.password_field :password, placeholder: 'Password', class: 'form-control' %>
+      </div>
+
+      <div class="form-actions">
+        <%= f.submit 'Log in', class: 'btn btn-primary' %>
+        <%= link_to 'Forgot your password?', new_password_path(resource_name), class: 'link' %>
+      </div>
+    <% end %>
+
+    <div class="form-actions">
+      <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-secondary' %>
+      <%= link_to 'Admin Login', new_admin_user_session_path, class: 'link' %>
+      <%= link_to 'Continue as Guest User', guest_user_checkout_path, class: 'btn btn-primary' %>
+    </div>
+  </div>
+</div>
