@@ -1,4 +1,4 @@
-# app/admin/about.rb
+# app/admin/about.rb #
 ActiveAdmin.register About do
   permit_params :title, :content
 
